@@ -10,7 +10,7 @@ tags:
  - vegan
  - leftovers
  - gluten-free
-meal_types:
+meal-types:
  - dinner
  - lunch
 ---

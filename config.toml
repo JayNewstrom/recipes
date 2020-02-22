@@ -11,9 +11,9 @@ theme = "Dot"
     icon = "foo"
   [[menu.main]]
     name = "Meal Types"
-    url = "/meal_types/"
+    url = "/meal-types/"
     icon = "bar"
 
 [taxonomies]
   tag = "tags"
-  meal_type = "meal_types"
+  meal-type = "meal-types"

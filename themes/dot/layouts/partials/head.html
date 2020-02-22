@@ -1,6 +1,6 @@
 <head>
     <meta charset="utf-8">
-    <title>{{ .Title }}</title>
+    <title>{{ replace .Title "-" " " | title }}</title>
 
     {{ hugo.Generator }}
 
