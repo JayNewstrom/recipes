@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 {{ range (.Site.Menus.main) }}
-                    <div class="col-6 mb-4">
+                    <div class="col-md-6 col-sm-12 mb-4">
                         <a href="{{ .URL }}" class="px-4 py-5 bg-white shadow text-center d-block match-height">
 {{/*                            <i class="{{ .Icon }} icon text-primary d-block mb-4"></i>*/}}
                             <h3 class="mb-3 mt-0">{{ .Name | title }}</h3>
