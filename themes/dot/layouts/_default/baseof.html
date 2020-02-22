@@ -3,19 +3,11 @@
 {{ partial "head.html" . }}
 
 <body>
-{{ if .IsHome }}
-    {{ "<!-- header -->" | safeHTML }}
-    <header class="shadow-bottom overlay bg-cover" data-background="{{ .Site.Params.banner.bg_image | absURL }}">
-        {{ partial "navigation.html" . }}
-    </header>
-    {{ "<!-- /header -->" | safeHTML }}
-{{ else }}
-    {{ "<!-- header -->" | safeHTML }}
-    <header class="shadow-bottom sticky-top bg-white">
-        {{ partial "navigation.html" . }}
-    </header>
-    {{ "<!-- /header -->" | safeHTML }}
-{{ end }}
+{{ "<!-- header -->" | safeHTML }}
+<header class="col-12 shadow-bottom sticky-top bg-white">
+    {{ partial "navigation.html" . }}
+</header>
+{{ "<!-- /header -->" | safeHTML }}
 <div id="content">
     {{ block "main" . }}{{ end }}
 </div>
