@@ -1,0 +1,12 @@
+{{ define "main" }}
+    {{ "<!-- details page -->" | safeHTML }}
+    <section class="single section bg-gray pb-0">
+        <div class="container">
+            <div class="row">
+                <h2 class="mb-5 title col-12">{{ .Title }}</h2>
+                <div class="content row col-12">{{.Content}}</div>
+            </div>
+        </div>
+    </section>
+    {{ "<!-- /details page -->" | safeHTML }}
+{{ end }}
