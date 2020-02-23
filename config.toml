@@ -2,7 +2,7 @@ baseURL = "https://recipes.jaynewstrom.com/"
 languageCode = "en-us"
 title = "Recipes"
 
-theme = "Dot"
+theme = "dot"
 
 [menu]
   [[menu.main]]
