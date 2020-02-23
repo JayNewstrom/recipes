@@ -24,3 +24,11 @@ jobs:
           AWS_REGION: 'us-east-2'
           SOURCE_DIR: 'public'
         if: github.event_name == 'push'
+      - uses: chetan/invalidate-cloudfront-action@v1.2
+        env:
+          DISTRIBUTION: 'E6ZHBSU0WARP9'
+          PATHS: '*'
+          AWS_REGION: 'us-east-2'
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+        if: github.event_name == 'push'
