@@ -1,0 +1,16 @@
+name: Hugo
+
+on:
+  pull_request:
+    branches: master
+  push:
+    branches: master
+    tags:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: hugo
+        uses: klakegg/actions-hugo@1.0.0
