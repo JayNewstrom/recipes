@@ -14,3 +14,13 @@ jobs:
       - uses: actions/checkout@v2
       - name: hugo
         uses: klakegg/actions-hugo@1.0.0
+      - uses: jakejarvis/s3-sync-action@v0.5.1
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+          AWS_REGION: 'us-east-2'
+          SOURCE_DIR: 'public'
+#        if: github.event_name == 'push'
