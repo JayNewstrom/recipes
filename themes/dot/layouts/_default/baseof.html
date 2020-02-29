@@ -13,7 +13,7 @@
 </div>
 
 {{ block "footer" . }}
-    {{ partial "footer.html" . }}
+    {{ partial "footer.html" (dict "ContentPath" "") }}
 {{ end }}
 
 {{ "<!-- Main Script -->" | safeHTML }}

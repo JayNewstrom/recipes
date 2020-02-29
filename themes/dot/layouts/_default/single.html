@@ -11,5 +11,6 @@
     {{ "<!-- /details page -->" | safeHTML }}
 {{ end }}
 {{ define "footer" }}
-    {{ partial "single_footer.html" . }}
+    {{ $contentPath := printf "/tree/master/content/%s" .Page.File.Path }}
+    {{ partial "footer.html" (dict "ContentPath" $contentPath) }}
 {{ end }}
