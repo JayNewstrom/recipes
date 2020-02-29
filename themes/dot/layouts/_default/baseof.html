@@ -11,7 +11,15 @@
 <div id="content">
     {{ block "main" . }}{{ end }}
 </div>
-{{ partial "footer.html" . }}
+
+{{ block "footer" . }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
 </body>
 
 </html>
