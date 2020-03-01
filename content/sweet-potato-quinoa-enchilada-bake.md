@@ -6,13 +6,12 @@ total_time_to_make: 60
 time_to_prepare: 15
 time_to_cook: 45
 tags:
- - vegetarian
- - vegan
- - leftovers
- - gluten-free
+- vegetarian
+- vegan
+- leftovers
+- gluten-free
 meal-types:
- - dinner
- - lunch
+- dinner
 ---
 
 {{% ingredients %}}
