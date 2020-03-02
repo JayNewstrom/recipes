@@ -7,7 +7,6 @@ total_time_to_make: 20
 time_to_prepare: 10
 time_to_cook: 10
 tags:
-- vegetarian
 - vegan
 meal-types:
 - dinner

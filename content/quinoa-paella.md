@@ -7,7 +7,6 @@ total_time_to_make: 70
 time_to_prepare: 35
 time_to_cook: 35
 tags:
-- vegetarian
 - vegan
 - leftovers
 - gluten-free

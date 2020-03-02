@@ -1,5 +1,5 @@
 {{ define "main" }}
-    {{ $Pages := .Pages }}
+    {{ $Pages := sort .Pages "Title" "asc" }}
 
     <section class="section bg-gray">
         <div class="container">
