@@ -24,12 +24,12 @@ meal-types:
 - 1 orange bell pepper, diced
 - 1 yellow bell pepper, diced
 - 2 tbsp tomato paste
-- 1 dozen asparagus, trimmed and cut into small pieces
+- 20 asparagus, trimmed and cut into small pieces
 - 1 1/2 cups uncooked quinoa, rinsed
 - 1 tsp sweet paprika
 - 1/2 tsp salt
 - 1/4 tsp black pepper
-- 1 1/2 cups & 1/2 cup vegetable broth separated
+- 2 cups & 1 cup vegetable broth separated
 - Chopped parsley for garnish
 {{% /ingredients %}}
 
@@ -39,10 +39,10 @@ meal-types:
 - Add diced peppers and 1/2 tsp salt and continue cooking for 15 minutes, stirring often
 - Add tomato paste and asparagus, mix well and cook for another 2 minutes
 - Add quinoa, paprika, 1/2 teaspoon of salt and pepper and saute with the vegetables for about 5 minutes, stirring constantly
-- Add 1 1/2 cups of vegetable broth
+- Add 2 cups of vegetable broth
 - Bring to a boil, lower heat and simmer, uncovered, for 25 minutes
 - In the meantime, preheat the oven to 375F
-- Add 1/2 cup of vegetable broth, mix well and transfer mixture to 8x8 pan
+- Add 1 cup of vegetable broth, mix well and transfer mixture to 8x8 pan
 - Place 8x8 pan in the oven, bake for 10 minutes
 - Garnish with parsley and cooked or raw lemon slices before serving
 {{% /instructions %}}
