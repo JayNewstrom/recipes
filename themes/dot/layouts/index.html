@@ -1,15 +1,22 @@
 {{ define "main" }}
     <section class="section bg-gray">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row">
                 {{ range (.Site.Menus.main) }}
                     <div class="col-md-6 col-sm-12 mb-4">
                         <a href="{{ .URL }}" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-{{/*                            <i class="{{ .Icon }} icon text-primary d-block mb-4"></i>*/}}
                             <h3 class="mb-3 mt-0">{{ .Name | title }}</h3>
-{{/*                            {{if not .IsHome }}{{with .Site.GetPage .URL }}{{ .Title }}{{ end}}{{ end }}*/}}
                         </a>
                     </div>
+                {{ end }}
+            </div>
+
+            <div class="row justify-content-center mt-5 mb-1">
+                <h2>Recently Added Recipes</h2>
+            </div>
+            <div class="row">
+                {{ range first 6 .Pages }}
+                    {{ partial "list_item.html" . }}
                 {{ end }}
             </div>
         </div>
