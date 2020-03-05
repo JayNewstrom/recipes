@@ -2,6 +2,10 @@
     {{ $Pages := sort .Pages "Title" "asc" }}
 
     <section class="section bg-gray">
+        <div class="row justify-content-center mb-3">
+            <h1>{{ replace .Title "-" " " | title }}</h1>
+        </div>
+
         <div class="container">
             <div class="row">
                 {{- range $Pages }}
