@@ -5,7 +5,7 @@
                 <h1>Recently Added Recipes</h1>
             </div>
             <div class="row">
-                {{ $Pages := sort .RegularPages "Title" "asc" }}
+                {{ $Pages := sort .RegularPages }}
                 {{ $Pages = where $Pages "Params.type" "!=" "not-recipe" }}
                 {{- range first 6 $Pages }}
                     {{ partial "list_item.html" . }}
