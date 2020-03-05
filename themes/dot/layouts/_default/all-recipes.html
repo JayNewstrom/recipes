@@ -2,12 +2,12 @@
     <section class="section bg-gray">
         <div class="container">
             <div class="row justify-content-center mb-3">
-                <h1>Recently Added Recipes</h1>
+                <h1>All Recipes</h1>
             </div>
             <div class="row">
-                {{ $Pages := sort .RegularPages "Title" "asc" }}
+                {{ $Pages := sort .Site.RegularPages "Title" "asc" }}
                 {{ $Pages = where $Pages "Params.type" "!=" "not-recipe" }}
-                {{- range first 6 $Pages }}
+                {{- range $Pages }}
                     {{ partial "list_item.html" . }}
                 {{- end }}
             </div>

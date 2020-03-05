@@ -8,11 +8,12 @@ theme = "dot"
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    icon = "foo"
   [[menu.main]]
     name = "Meal Types"
     url = "/meal-types/"
-    icon = "bar"
+  [[menu.main]]
+    name = "All Recipes"
+    url = "/all-recipes/"
 
 [taxonomies]
   tag = "tags"
