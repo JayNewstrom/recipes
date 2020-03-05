@@ -94,4 +94,9 @@
         tabPane.addClass('active');
     });
 
+    $('.instructions ul li').click(function (e) {
+        e.preventDefault();
+        $('.instructionsSeparator').remove();
+        $(this).append('<div class="instructionsSeparator"/>')
+    });
 })(jQuery);
