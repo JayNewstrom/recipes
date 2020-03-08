@@ -30,5 +30,5 @@ meal-types:
 - Rinse instant pot
 - Put shredded chicken, uncooked rice, pesto, water, salt, and pepper into the instant pot
 - Optional, add broccoli or other add-ins
-- Cook using rice setting (4 minutes), and let pressure naturally release for 15 minutes
+- Cook using rice setting (6 minutes), and let pressure naturally release for 15 minutes
 {{% /instructions %}}
