@@ -20,12 +20,13 @@ meal-types:
 - 1 large onion, diced
 - 2 tablespoon cajun seasoning
 - 4 cups chicken broth
+- 2 cups water
 - 2 cans (14 1/2 ounces) stewed tomatoes
 - 2 cups long grain rice
 {{% /ingredients %}}
 
 {{% instructions %}}
-- In a large pot, combine rice, broth, and stewed tomatoes; bring to a boil.
+- In a large pot, combine rice, water, broth, and stewed tomatoes; bring to a boil.
 - Heat oil in large heavy skillet on medium-high heat.
 - Add chicken to skillet, cook through, around 10 minutes. Add to pot.
 - Add andouille sausage to skillet, cook through, around 6 minutes. Add to pot.
