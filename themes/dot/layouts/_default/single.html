@@ -4,6 +4,12 @@
         <div class="container">
             <div class="row">
                 <h1 class="mb-5 title col-12">{{ .Title }}</h1>
+                <div class="row col-12 mb-5">
+                    <h5 class="col-12">Serves: {{ $.Page.Param "serves" }}</h5>
+                    <h5 class="col-12">Total Cook Time: {{ $.Page.Param "total_time_to_make" }}</h5>
+                    <h5 class="col-12">Prep Time: {{ $.Page.Param "time_to_prepare" }}</h5>
+                    <h5 class="col-12">Cook Time: {{ $.Page.Param "time_to_cook" }}</h5>
+                </div>
                 <div class="content row col-12">{{.Content}}</div>
             </div>
         </div>
