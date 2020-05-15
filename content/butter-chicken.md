@@ -23,7 +23,7 @@ meal-types:
 - 2 tablespoons garam masala
 - 2 teaspoons curry powder
 - 2 teaspoons ground coriander
-- 1/4 teaspoon cayenne pepper
+- 1/2 teaspoon cayenne pepper
 - 2 teaspoons salt
 - 6 ounces tomato paste
 - 2 (13.5 oz) canned full fat coconut milk
