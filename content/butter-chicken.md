@@ -16,11 +16,11 @@ meal-types:
 
 {{% ingredients %}}
 - 3 cups of rice
-- 4 tablespoons vegan butter, (or olive oil)
+- 4 tablespoons vegan butter
 - 2 large onion, diced small
-- 2 tablespoons grated fresh ginger, (or 1 tsp dried)
+- 2 tablespoons ginger
 - 2 tablespoons minced garlic
-- 2 tablespoon2 garam masala
+- 2 tablespoons garam masala
 - 2 teaspoons curry powder
 - 2 teaspoons ground coriander
 - 1/4 teaspoon cayenne pepper
