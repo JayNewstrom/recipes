@@ -22,7 +22,7 @@ meal-types:
 - 1 tsp ground cinnamon
 - 1 tsp kosher salt
 - 1 tsp black pepper
-- 1 cup quinoa, cooked
+- 1/2 cup quinoa, before cooking
 - 1/2 cup carrots, shredded
 - 1/4 cup fresh cilantro
 - 1/4 cup peanuts, chopped
@@ -39,9 +39,9 @@ meal-types:
 
 {{% instructions %}}
 - Preheat the oven to 425°F.
+- Prepare quinoa.
 - Toss the sweet potatoes and garlic with the olive oil, rosemary, cinnamon, salt and pepper.
 - Spread into an even layer on a baking sheet.
-- Prepare quinoa.
 - Place in the oven and bake for 15-20 minutes.
 - While the potatoes are roasting, prepare the peanut sauce by combining all of the ingredients in a large blender or food processor.
 - Distribute the roasted sweet potatoes, cooked quinoa, carrots, cilantro and peanuts between two bowls.
