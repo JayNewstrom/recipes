@@ -15,8 +15,8 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 3 cups of rice
-- 4 tablespoons vegan butter
+- 2 cups of rice, before cooking
+- 8 tablespoons vegan butter
 - 2 large onion, diced small
 - 2 tablespoons ginger
 - 2 tablespoons minced garlic
@@ -25,7 +25,7 @@ meal-types:
 - 2 teaspoons ground coriander
 - 1/2 teaspoon cayenne pepper
 - 2 teaspoons salt
-- 6 ounces tomato paste
+- 3 ounces tomato paste
 - 2 (13.5 oz) canned full fat coconut milk
 - 4 carrots (optional)
 - 1 bag of sweet peas (optional)
