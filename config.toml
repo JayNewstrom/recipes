@@ -11,9 +11,6 @@ theme = "dot"
   [[menu.main]]
     name = "Meal Types"
     url = "/meal-types/"
-  [[menu.main]]
-    name = "All Recipes"
-    url = "/all-recipes/"
 
 [taxonomies]
   tag = "tags"
