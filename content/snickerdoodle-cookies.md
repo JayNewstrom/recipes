@@ -17,7 +17,7 @@ meal-types:
 - 1 cup sugar
 - 1/3 cup of unsweetened almond milk
 - splash vanilla
-- 2 cups flower
+- 2 cups flour
 - 1 tsp baking soda
 - 1 tsp baking powder
 - 1 tsp cinnamon
