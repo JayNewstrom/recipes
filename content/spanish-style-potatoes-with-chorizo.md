@@ -14,9 +14,9 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 pound small red potatoes, halved
+- 1 pound potatoes, chopped into byte sized chunks
 - 1 head broccoli, cut into florets (about 4 cups)
-- 1 pound smoked chorizo, cut into rounds
+- 1 pound smoked chorizo (cut into rounds, or cooked ground chunks)
 - 2 tablespoons olive oil
 - 2 teaspoons paprika
 - 1 tablespoon chopped fresh parsley
@@ -25,8 +25,9 @@ meal-types:
 
 {{% instructions %}}
 - Heat your oven to 400F
-- In a mixing bowl, combine all the ingredients and mix.
+- In a mixing bowl, combine all the ingredients except for chorizo and mix.
 - Pour onto a sheet pan in a single layer. 
-- Bake 20-30 minutes, or until the potatoes are tender, stirring halfway through.
+- Bake 20 minutes stirring halfway through.
+- Add chorizo to the sheet pan, mix again, and place back in over for another 10-20 minutes.
 - Season to taste with salt and pepper. 
 {{% /instructions %}}
