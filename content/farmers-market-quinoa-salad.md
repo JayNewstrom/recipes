@@ -28,7 +28,8 @@ meal-types:
 - 2 tablespoons dried basil
 - 8 tablespoons lemon juice
 - 4 tablespoons olive oil
-- 2 tablespoons salt and pepper, more or less to taste
+- 2 teaspoons salt, more or less to taste
+- 2 teaspoons pepper, more or less to taste
 {{% /ingredients %}}
 
 {{% instructions %}}
