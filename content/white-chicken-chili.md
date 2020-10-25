@@ -26,9 +26,10 @@ meal-types:
 - 1 Tablespoon lime juice
 - 2 Tablespoon cumin
 - 1 Tablespoon onion powder
-- 1 Tablespoon chili powder
+- 2 Tablespoon chili powder
 - 1/4 teaspoon cayenne pepper
 - 1 Tablespoon pepper
+- salt/pepper to taste
 - (Optional, for topping) sour cream, corn chips, Monterrey Jack cheese, chopped cilantro, and/or jalapeno slices
 {{% /ingredients %}}
 

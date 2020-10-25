@@ -21,8 +21,8 @@ meal-types:
 - Salt and freshly ground black pepper, to taste
 - 1 lb lean ground beef/turkey
 - 2 cloves garlic, minced
-- 1 tsp chili powder
-- 1 tsp ground cumin
+- 1 tablespoon chili powder
+- 1 tablespoon ground cumin
 - Few dashes cayenne pepper, (optional)
 - 1 (14.5 oz) can diced tomatoes, drained
 - 3 Tbsp minced fresh parsley
