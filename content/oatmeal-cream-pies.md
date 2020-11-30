@@ -8,6 +8,7 @@ time_to_prepare: 0
 time_to_cook: 0
 tags:
 meal-types:
+- dessert
 ---
 
 {{% ingredients %}}
