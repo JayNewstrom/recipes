@@ -37,6 +37,8 @@ meal-types:
 - Pre-heat oven to 375 degrees F.  On a large baking sheet, toss together the cubed sweet potato with 2 teaspoons olive oil, 1/2 teaspoon salt and 1/4 teaspoon pepper.  Bake sweet potato for 20 minutes.
 - While sweet potato is baking, add all the diced bell peppers, zucchini and onion to a bowl and toss with 1 teaspoon olive oil and a pinch of salt and pepper.  
 - Add the vegetables to the sweet potatoes, stir and make sure they’re in an even layer.  Place back into the oven 10 minutes.  
-- Increase the oven temperature to 400 degrees F.  Place the sweet potatoes and veggies into a large baking dish and stir in the cooked quinoa, black beans, corn, enchilada sauce, spices, 1 teaspoon salt and 1/2 teaspoon pepper. Bake until headed through, about 10 minutes.
+- Increase the oven temperature to 400 degrees F.
+- Place the sweet potatoes and veggies into a large baking dish and stir in the cooked quinoa, black beans, corn, enchilada sauce, spices, 1 teaspoon salt and 1/2 teaspoon pepper.
+- Bake until heated through, about 10 minutes.
 - Top with your favorite garnishes and enjoy!
 {{% /instructions %}}
