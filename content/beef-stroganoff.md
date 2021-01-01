@@ -2,7 +2,7 @@
 title: "Beef Stroganoff"
 date: 2021-01-01T10:05:24-06:00
 draft: false
-serves: 0
+serves: 6
 total_time_to_make: 35
 time_to_prepare: 5
 time_to_cook: 30
