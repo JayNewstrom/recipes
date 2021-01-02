@@ -28,7 +28,7 @@ meal-types:
 - 4 tablespoons minced fresh cilantro
 - guacamole or avocado slices (if desired)
 #### For the lime vinaigrette:
-- 6 tablespoons fresh lime juice
+- 1/2 cup fresh lime juice
 - 2 tablespoons olive oil
 - 2 tablespoon honey
 - 2 teaspoon chili powder
