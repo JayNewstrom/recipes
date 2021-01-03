@@ -9,6 +9,7 @@ time_to_cook: 35
 tags:
 - vegan
 - leftovers
+- soup
 meal-types:
 - dinner
 - lunch

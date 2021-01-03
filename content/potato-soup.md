@@ -10,6 +10,7 @@ tags:
 - vegan
 - leftovers
 - gluten-free
+- soup
 meal-types:
 - dinner
 ---

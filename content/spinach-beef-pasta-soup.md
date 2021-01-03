@@ -9,6 +9,7 @@ time_to_cook: 30
 tags:
 - leftovers
 - gluten-free
+- soup
 meal-types:
 - dinner
 ---
