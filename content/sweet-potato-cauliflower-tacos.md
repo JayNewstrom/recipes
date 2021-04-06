@@ -32,7 +32,6 @@ meal-types:
 
 #### chipotle lime cashew sauce
 - ¼ cup roasted unsalted cashews
-- 1 chipotle pepper (from a can, in adobo sauce) OR 2 teaspoons adobo sauce (from a can of chipotle peppers in adobo sauce)
 - 1 clove garlic
 - 1 teaspoon ketchup
 - 1 teaspoon apple cider vinegar
