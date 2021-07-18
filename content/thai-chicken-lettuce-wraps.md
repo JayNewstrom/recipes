@@ -13,9 +13,9 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 2 large chicken breasts
+- 1 large chicken breasts
 - 1/2 cup Peanut sauce 
-- 2 avocados
+- 1 avocados
 - 8 Butterhead lettuce
 - 1/2 c Chopped peanuts
 - Optional toppings: parsley and crushed red pepper
