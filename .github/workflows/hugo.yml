@@ -16,6 +16,32 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           version: 0.83.1
+      - name: Build search index
+        run: |
+          LATEST_RELEASE=$(curl -L -s -H 'Accept: application/json' https://github.com/arranf/HugoToJSON/releases/latest)
+          LATEST_VERSION=$(echo $LATEST_RELEASE | sed -e 's/.*"tag_name":"\([^"]*\)".*/\1/')
+          ARTIFACT_URL="https://github.com/arranf/HugoToJSON/releases/download/$LATEST_VERSION/hugo_to_json"
+          INSTALL_DIRECTORY="."
+          INSTALL_NAME="hugo_to_json"
+          DOWNLOAD_FILE="$INSTALL_DIRECTORY/$INSTALL_NAME"
+
+          echo "Fetching $ARTIFACT_URL.."
+          if test -x "$(command -v curl)"; then
+              code=$(curl -s -w '%{http_code}' -L "$ARTIFACT_URL" -o "$DOWNLOAD_FILE")
+          elif test -x "$(command -v wget)"; then
+              code=$(wget -q -O "$DOWNLOAD_FILE" --server-response "$ARTIFACT_URL" 2>&1 | awk '/^  HTTP/{print $2}' | tail -1)
+          else
+              echo "Neither curl nor wget was available to perform http requests."
+              exit 1
+          fi
+
+          if [ "$code" != 200 ]; then
+              echo "Request failed with code $code"
+              exit 1
+          fi
+
+          chmod +x "$DOWNLOAD_FILE"
+          ./"$DOWNLOAD_FILE" ./content -o ./static/json/index.json
       - name: Build
         run: hugo --minify
       - uses: jakejarvis/s3-sync-action@v0.5.1
