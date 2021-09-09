@@ -26,7 +26,8 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Drain chickpeas and place in a large bowl. Mash well using the bottom of a mason jar or cup.
+- Drain chickpeas and place in a large bowl
+- Mash well using the bottom of a mason jar or cup
 - Dice the celery and pickles and add them to the chickpeas
 - Mince the fresh dill and add to the chickpeas
 - Add remaining ingredients and mix well
