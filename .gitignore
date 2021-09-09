@@ -1,1 +1,4 @@
 /public
+.idea/
+hugo_to_json
+/static/json/index.json

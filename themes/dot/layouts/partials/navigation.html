@@ -11,8 +11,10 @@
         <div class="collapse navbar-collapse text-center" id="navigation">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Params.home }}</a>
+                    <input id="search" class="form-control" type="text" placeholder="Search..." />
+                    <div id="results" class="shadow text-left"></div>                 
                 </li>
+                
                 {{ range .Site.Menus.main }}
                     {{ if .HasChildren }}
                         <li class="nav-item dropdown">

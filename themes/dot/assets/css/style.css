@@ -854,3 +854,7 @@ p a:empty {
     width: 100%;
     height: 2px;
 }
+
+#results > a:hover {
+    background-color: #F8F9FAFF;
+}
