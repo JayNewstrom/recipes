@@ -21,7 +21,7 @@
 <script src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- Lunr Search Script -->" | safeHTML }}
-{{ $script := resources.Get "js/lunr-search.js"}}
+{{ $script := resources.Get "js/lunr-search.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
 
 </body>
