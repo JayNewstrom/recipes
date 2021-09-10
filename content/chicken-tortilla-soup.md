@@ -15,13 +15,13 @@ meal-types:
 - 32 oz. gluten-free chicken broth
 - 1 lb. boneless, skinless chicken tenders (uncooked)
 - 2 garlic cloves, minced
-- 1/2 tsp. chili powder
-- 1/2 tsp. ground cumin
+- 1 tsp. chili powder
+- 1 tsp. ground cumin
 - 1/2 tsp. smoked paprika
 - 1 can (14.5 oz.) petite diced tomatoes with juice
-- 1 cup corn (frozen or canned)
+- 1.5 cup corn (frozen or canned)
 - 1 Tbsp. fresh lime juice
-- 1/4 tsp. pepper
+- 1 tsp. pepper
 - 1/4 tsp. turmeric
 #### Toppings
 - 1/2 cup shredded cheese (dairy or non-dairy)
@@ -29,6 +29,7 @@ meal-types:
 - 1/2 avocado, sliced and diced
 - 1/2 lime, sliced
 - Fresh cilantro (just a pinch or two depending on preference)
+- 1 bag of tortilla strips
 {{% /ingredients %}}
 
 {{% instructions %}}
