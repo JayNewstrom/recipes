@@ -34,5 +34,6 @@
 
     {{ "<!-- Bootstrap JS -->" | safeHTML }}
     <script src="{{ `plugins/bootstrap/bootstrap.min.js` | absURL }}"></script>
-    <script src="https://unpkg.com/lunr/lunr.js"></script>
+    {{ "<!-- Lunr JS -->" | safeHTML }}
+    <script src="{{ `plugins/lunr/lunr.js` | absURL }}"></script>
 </head>
