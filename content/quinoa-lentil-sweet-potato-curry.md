@@ -12,6 +12,7 @@ tags:
 - leftovers
 meal-types:
 - dinner
+image: quinoa-lentil-sweet-potato-curry.jpg
 ---
 
 {{% ingredients %}}

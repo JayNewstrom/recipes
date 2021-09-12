@@ -12,6 +12,7 @@ tags:
 - soup
 meal-types:
 - dinner
+image: white-chicken-chili.jpg
 ---
 
 {{% ingredients %}}

@@ -14,6 +14,7 @@ tags:
 meal-types:
 - dinner
 - lunch
+image: quinoa-vegetable-soup.jpg
 ---
 
 {{% ingredients %}}

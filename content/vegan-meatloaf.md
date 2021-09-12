@@ -11,6 +11,7 @@ tags:
 - gluten-free
 meal-types:
 - dinner
+image: vegan-meatloaf.jpg
 ---
 
 {{% ingredients %}}

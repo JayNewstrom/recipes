@@ -13,6 +13,7 @@ tags:
 meal-types:
 - lunch
 - dinner
+image: moroccan-chickpea-quinoa-salad.jpg
 ---
 
 {{% ingredients %}}
