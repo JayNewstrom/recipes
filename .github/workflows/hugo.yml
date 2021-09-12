@@ -17,9 +17,7 @@ jobs:
         with:
           version: 0.83.1
       - name: Build search index
-        run: |
-          chmod +x download-and-run-hugo-to-json.sh
-          ./download-and-run-hugo-to-json.sh
+        run: ./download-and-run-hugo-to-json.sh
       - name: Build
         run: hugo --minify
       - uses: jakejarvis/s3-sync-action@v0.5.1
