@@ -18,7 +18,6 @@ jobs:
           version: 0.83.1
       - name: Build search index
         run: |
-          chmod +x download-and-run-hugo-to-json.sh
           ./download-and-run-hugo-to-json.sh
       - name: Build
         run: hugo --minify
