@@ -12,6 +12,7 @@ tags:
 - gluten-free
 meal-types:
 - dinner
+image: thai-peanut-sweet-potato-buddha-bowl.jpg
 ---
 
 {{% ingredients %}}

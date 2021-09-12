@@ -15,6 +15,7 @@ meal-types:
 - dinner
 - appetizer
 - side
+image: southwest-quinoa-salad.jpg
 ---
 
 {{% ingredients %}}

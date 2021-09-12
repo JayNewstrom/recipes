@@ -11,6 +11,7 @@ tags:
 meal-types:
 - lunch
 - dinner
+image: pesto-sauce.jpg
 ---
 
 {{% ingredients %}}

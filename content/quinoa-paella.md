@@ -12,6 +12,7 @@ tags:
 - gluten-free
 meal-types:
 - dinner
+image: quinoa-paella.jpg
 ---
 
 {{% ingredients %}}

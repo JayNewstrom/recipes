@@ -11,6 +11,7 @@ tags:
 meal-types:
 - dinner
 - lunch
+image: sun-dried-tomato-pesto-gnocchi.jpg
 ---
 
 {{% ingredients %}}

@@ -12,6 +12,7 @@ tags:
 - leftovers
 meal-types:
 - dinner
+image: butter-chicken.jpg
 ---
 
 {{% ingredients %}}

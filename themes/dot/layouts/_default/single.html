@@ -4,6 +4,9 @@
         <div class="container">
             <div class="row">
                 <h1 class="mb-5 title col-12">{{ .Title }}</h1>
+                {{ if $.Page.Param "image" }}
+                <img src="{{ printf "images/%s" ($.Page.Param "image") | absURL }}" class="recipe-image mb-5 col-12"/>
+                {{ end }}
                 <div class="row col-12 mb-5">
                     <h5 class="col-12">Serves: {{ $.Page.Param "serves" }}</h5>
                     <h5 class="col-12">Total Cook Time: {{ $.Page.Param "total_time_to_make" }}</h5>

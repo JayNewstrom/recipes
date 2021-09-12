@@ -11,6 +11,7 @@ tags:
 - gluten-free
 meal-types:
 - dinner
+image: sweet-potato-quinoa-enchilada-bake.jpg
 ---
 
 {{% ingredients %}}
