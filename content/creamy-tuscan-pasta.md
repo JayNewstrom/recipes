@@ -22,7 +22,10 @@ meal-types:
 - ⅓ cup Fresh basil torn or sliced
 - 1 cup Sundried tomatoes
 - ½ tbsp Garlic powder
-- 2 tsp Salt
+- 1 tsp Salt
+- 1 tsp seasoning salt
+- 1 tsp paprika
+- 1 tsp smoked chipotle pepper
 {{% /ingredients %}}
 
 {{% instructions %}}
@@ -34,5 +37,5 @@ meal-types:
 - Set the Instant Pot to 'keep warm.’
 - Next, add coconut milk, fresh torn or sliced basil, fresh baby spinach, and sun-dried tomatoes.
 - Combine and stir until spinach is fully wilted and no excess cooking liquid remains.
-- Once fully cooked, the final step is just to add the salt and garlic powder. Taste and adjust seasonings to your liking.
+- Once fully cooked, the final step is just to add the seasonings. Taste and adjust seasonings to your liking.
 {{% /instructions %}}
