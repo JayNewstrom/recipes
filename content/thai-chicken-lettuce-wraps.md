@@ -24,6 +24,7 @@ meal-types:
 {{% instructions %}}
 - Sprinkle raw chicken with salt and pepper.
 - Cook chicken in instapot. While cooking, cut avocados into bite size pieces and chop peanuts.
-- Add ~1/2 cup Thai peanut sauce to chicken and toss.
+- Shred chicken
+- Add ~1/2 cup Thai peanut sauce to shredded chicken and toss.
 - Spoon chicken mixture into lettuce and top with avocados, chopped parsley and crushed red pepper
 {{% /instructions %}}
