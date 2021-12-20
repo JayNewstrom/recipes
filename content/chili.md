@@ -2,9 +2,9 @@
 title: "Chili"
 date: 2020-03-01T15:00:36-06:00
 draft: false
-serves: 4
-total_time_to_make: 30
-time_to_prepare: 5
+serves: 10
+total_time_to_make: 45
+time_to_prepare: 20
 time_to_cook: 25
 tags:
 - gluten-free
@@ -16,21 +16,21 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 tablespoon olive oil
-- 1 medium yellow onion, diced
-- 1 pound lean ground beef
-- 2 1/2 tablespoons chili powder
-- 2 tablespoons ground cumin
-- 2 tablespoons granulated sugar
-- 2 tablespoons tomato paste
-- 1 tablespoon garlic powder
-- 1 1/2 teaspoons salt
-- 1/2 teaspoon ground black pepper
-- 1/4 teaspoon ground cayenne pepper
-- 1 1/2 cups beef broth
-- 1 (15 oz.) can petite diced tomatoes
-- 1 (16 oz.) can red kidney beans, drained and rinsed
-- 1 (8 oz.) can tomato sauce
+- 2 tablespoon olive oil
+- 2 medium yellow onion, diced
+- 2 pound lean ground beef
+- 5 tablespoons chili powder
+- 4 tablespoons ground cumin
+- 4 tablespoons granulated sugar
+- 1 (6 oz.) can tomato paste
+- 2 tablespoons garlic powder
+- 2 teaspoons salt
+- 1 teaspoon ground black pepper
+- 1/2 teaspoon ground cayenne pepper
+- 4 cups beef broth
+- 2 (15 oz.) can petite diced tomatoes
+- 2 (16 oz.) can red kidney beans, drained and rinsed
+- 1 (16 oz.) can tomato sauce
 {{% /ingredients %}}
 
 {{% instructions %}}
