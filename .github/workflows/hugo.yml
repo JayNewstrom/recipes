@@ -2,10 +2,14 @@ name: Hugo
 
 on:
   pull_request:
-    branches: master
+    branches:
+      - master
   push:
-    branches: master
+    branches:
+      - master
+      - terraform
     tags:
+      - *
 
 jobs:
   build:
@@ -20,21 +24,23 @@ jobs:
         run: ./download-and-run-hugo-to-json.sh
       - name: Build
         run: hugo --minify
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE }}
+          aws-region: us-east-2
+        if: github.event_name == 'push'
       - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --delete
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
-          AWS_REGION: 'us-east-2'
+          AWS_REGION: 'us-east-1'
           SOURCE_DIR: 'public'
         if: github.event_name == 'push'
       - uses: chetan/invalidate-cloudfront-action@v1.3
         env:
-          DISTRIBUTION: 'E6ZHBSU0WARP9'
+          DISTRIBUTION: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION }}
           PATHS: '/*'
-          AWS_REGION: 'us-east-2'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+          AWS_REGION: 'us-east-1'
         if: github.event_name == 'push'
