@@ -193,7 +193,7 @@ resource "aws_iam_openid_connect_provider" "github_actions" {
 }
 
 resource "aws_iam_role" "github_actions" {
-  name = "RecipeGithubActionsRole"
+  name = "RecipesGithubActionsRole"
 
   assume_role_policy  = jsonencode({
     Version   = "2012-10-17"
@@ -232,7 +232,8 @@ resource "aws_iam_policy" "publisher" {
         ]
         Effect   = "Allow"
         Resource = [
-          aws_s3_bucket.s3_bucket.arn
+          aws_s3_bucket.s3_bucket.arn,
+          format("%s/*", aws_s3_bucket.s3_bucket.arn),
         ]
       },
       {
@@ -242,4 +243,26 @@ resource "aws_iam_policy" "publisher" {
       },
     ]
   })
+}
+
+resource "aws_iam_role" "lambda_redirect" {
+  name = "RecipesLambdaRedirect"
+
+  assume_role_policy  = jsonencode({
+    Version   = "2012-10-17"
+    Statement = [
+      {
+        Effect    = "Allow"
+        Action    = "sts:AssumeRole"
+        Principal = {
+          Service = [
+            "lambda.amazonaws.com",
+            "edgelambda.amazonaws.com",
+          ]
+        }
+      },
+    ]
+  })
+
+  tags = var.aws_tags
 }
