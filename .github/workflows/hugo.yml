@@ -9,7 +9,7 @@ on:
       - master
       - terraform
     tags:
-      - *
+      - .*
 
 jobs:
   build:
