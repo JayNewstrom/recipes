@@ -195,7 +195,7 @@ resource "aws_iam_openid_connect_provider" "github_actions" {
 resource "aws_iam_role" "github_actions" {
   name = "RecipeGithubActionsRole"
 
-  assume_role_policy = jsonencode({
+  assume_role_policy  = jsonencode({
     Version   = "2012-10-17"
     Statement = [
       {
@@ -213,6 +213,33 @@ resource "aws_iam_role" "github_actions" {
       },
     ]
   })
+  managed_policy_arns = [aws_iam_policy.publisher.arn]
 
   tags = var.aws_tags
+}
+
+resource "aws_iam_policy" "publisher" {
+  name = "RecipesPublish"
+
+  policy = jsonencode({
+    Version   = "2012-10-17"
+    Statement = [
+      {
+        Action   = [
+          "s3:PutObject",
+          "s3:ListBucket",
+          "s3:DeleteObject"
+        ]
+        Effect   = "Allow"
+        Resource = [
+          aws_s3_bucket.s3_bucket.arn
+        ]
+      },
+      {
+        Action   = "cloudfront:CreateInvalidation"
+        Effect   = "Allow"
+        Resource = aws_cloudfront_distribution.s3_distribution.arn
+      },
+    ]
+  })
 }
