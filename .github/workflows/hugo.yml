@@ -2,10 +2,16 @@ name: Hugo
 
 on:
   pull_request:
-    branches: master
+    branches:
+      - master
   push:
-    branches: master
+    branches:
+      - master
     tags:
+      - .*
+
+permissions:
+  id-token: write
 
 jobs:
   build:
@@ -20,21 +26,15 @@ jobs:
         run: ./download-and-run-hugo-to-json.sh
       - name: Build
         run: hugo --minify
-      - uses: jakejarvis/s3-sync-action@v0.5.1
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          args: --delete
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
-          AWS_REGION: 'us-east-2'
-          SOURCE_DIR: 'public'
+          role-to-assume: ${{ secrets.AWS_ROLE }}
+          aws-region: us-east-1
         if: github.event_name == 'push'
-      - uses: chetan/invalidate-cloudfront-action@v1.3
-        env:
-          DISTRIBUTION: 'E6ZHBSU0WARP9'
-          PATHS: '/*'
-          AWS_REGION: 'us-east-2'
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET }}
+      - name: Sync files to S3
+        run: aws s3 sync --delete public s3://${{ secrets.AWS_BUCKET_NAME }}
+        if: github.event_name == 'push'
+      - name: Invalidate cloudfront
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION }} --paths "/*"
         if: github.event_name == 'push'
