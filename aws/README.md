@@ -7,4 +7,6 @@ Using a few tools:
 - Iam
 - Certificate Manager
 
-This directory includes a few changes that were manually needed in order to get the site up and running.
+This directory includes a terraform script that creates all the infrastructure needed to run the site, as well as do automatic deployments when changes are pushed.
+
+Run with - `terraform apply -var-file recipes2.tfvars -auto-approve`
