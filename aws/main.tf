@@ -100,6 +100,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     min_ttl                = 0
     default_ttl            = 86400
     max_ttl                = 31536000
+
+    lambda_function_association {
+      event_type   = "origin-request"
+      lambda_arn   = aws_lambda_function.redirect.qualified_arn
+      include_body = false
+    }
   }
 
   price_class = var.cloudfront_price_class
@@ -248,7 +254,7 @@ resource "aws_iam_policy" "publisher" {
 resource "aws_iam_role" "lambda_redirect" {
   name = "RecipesLambdaRedirect"
 
-  assume_role_policy  = jsonencode({
+  assume_role_policy = jsonencode({
     Version   = "2012-10-17"
     Statement = [
       {
@@ -265,4 +271,20 @@ resource "aws_iam_role" "lambda_redirect" {
   })
 
   tags = var.aws_tags
+}
+
+data "archive_file" "redirect" {
+  type        = "zip"
+  source_file = "${path.module}/redirect.js"
+  output_path = "${path.module}/redirect.zip"
+}
+
+resource "aws_lambda_function" "redirect" {
+  function_name = "RecipesRedirectToIndex"
+  role          = aws_iam_role.lambda_redirect.arn
+  handler       = "redirect.handler"
+  runtime       = "nodejs14.x"
+  filename      = "redirect.zip"
+  publish       = true
+  depends_on    = [data.archive_file.redirect]
 }
