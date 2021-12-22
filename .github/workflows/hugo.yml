@@ -33,14 +33,14 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE }}
           aws-region: us-east-1
         if: github.event_name == 'push'
-      - uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --delete
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
-          AWS_REGION: 'us-east-1'
-          SOURCE_DIR: 'public'
-        if: github.event_name == 'push'
+#      - uses: jakejarvis/s3-sync-action@v0.5.1
+#        with:
+#          args: --delete
+#        env:
+#          AWS_S3_BUCKET: ${{ secrets.AWS_BUCKET_NAME }}
+#          AWS_REGION: 'us-east-1'
+#          SOURCE_DIR: 'public'
+#        if: github.event_name == 'push'
       - uses: chetan/invalidate-cloudfront-action@v1.3
         env:
           DISTRIBUTION: ${{ secrets.AWS_CLOUDFRONT_DISTRIBUTION }}
