@@ -193,7 +193,7 @@ resource "aws_iam_openid_connect_provider" "github_actions" {
     "sts.amazonaws.com",
   ]
 
-  thumbprint_list = []
+  thumbprint_list = ["A031C46782E6E6C662C2C87C76DA9AA62CCABD8E"]
 
   tags = var.aws_tags
 }
