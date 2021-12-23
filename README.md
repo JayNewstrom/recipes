@@ -8,6 +8,9 @@ This website uses [hugo](https://gohugo.io/).
 Install hugo on your local machine using the instructions from the website.
 Once installed, it can be run with `hugo server`.
 
+## Deploying
+This website is deployed on AWS using Terraform. For more information see [aws](/aws).
+
 ## License
 Where not otherwise noted, code is licensed under Apache 2.0
 
