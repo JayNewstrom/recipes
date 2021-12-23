@@ -31,7 +31,7 @@ meal-types:
 - 2 (15 oz.) can petite diced tomatoes
 - 2 (16 oz.) can red kidney beans, drained and rinsed
 - 1 (16 oz.) can tomato sauce
-{{% /ingredients %}}
+{{% /ingredients %}}  
 
 {{% instructions %}}
 - Add the olive oil to a large soup pot and place it over medium-high heat for two minutes. 
