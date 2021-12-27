@@ -6,10 +6,15 @@ A lot of these recipes have origins from other places, but have been modified to
 ## Developing
 This website uses [hugo](https://gohugo.io/).
 Install hugo on your local machine using the instructions from the website.
-Once installed, it can be run with `hugo server`.
+
+#### Testing locally
+`hugo server`
+
+#### Adding a new recipe
+`hugo new recipe-name.md`
 
 ## Deploying
-This website is deployed on AWS using Terraform. For more information see [aws](/aws).
+This website is deployed on AWS using Terraform and Github Actions. For more information see [aws](/aws).
 
 ## License
 Where not otherwise noted, code is licensed under Apache 2.0
