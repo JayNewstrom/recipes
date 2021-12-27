@@ -270,8 +270,6 @@ resource "aws_acm_certificate_validation" "certificate_validation" {
 }
 
 resource "cloudflare_record" "domain_record" {
-  count = 1
-
   zone_id = var.cloudflare_zone
   name    = var.domain_name
   type    = "CNAME"
