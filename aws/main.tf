@@ -374,13 +374,13 @@ data "archive_file" "redirect" {
 }
 
 resource "aws_lambda_function" "redirect" {
-  function_name = "RecipesRedirectToIndex"
-  role          = aws_iam_role.lambda_redirect.arn
-  handler       = "redirect.handler"
-  runtime       = "nodejs14.x"
-  filename      = "redirect.zip"
-  publish       = true
-  depends_on    = [data.archive_file.redirect]
+  function_name    = "RecipesRedirectToIndex"
+  role             = aws_iam_role.lambda_redirect.arn
+  handler          = "redirect.handler"
+  runtime          = "nodejs14.x"
+  source_code_hash = data.archive_file.redirect.output_base64sha256
+  filename         = data.archive_file.redirect.output_path
+  publish          = true
 }
 
 resource "aws_iam_role" "replication" {
