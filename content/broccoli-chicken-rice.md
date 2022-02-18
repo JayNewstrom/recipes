@@ -9,6 +9,7 @@ time_to_cook: 30
 tags:
 - gluten-free
 - leftovers
+- instant-pot
 meal-types:
 - dinner
 ---

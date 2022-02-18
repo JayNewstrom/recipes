@@ -9,6 +9,7 @@ time_to_cook: 10
 tags:
 - vegan
 - leftovers
+- instant-pot
 meal-types:
 - lunch
 - dinner
