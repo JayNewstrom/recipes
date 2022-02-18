@@ -28,7 +28,7 @@ meal-types:
 
 {{% instructions %}}
 - Preheat oven to 375
-- Combine onions, lentils, rice, bell peppers, salsa, black beans, and chili seasoning in the 3 qt baking dish, cover tightly with foil
+- Combine onions, lentils, rice, bell peppers, salsa, black beans, and taco seasoning in the 3 qt baking dish, cover tightly with foil
 - Bake for an hour and a half
 - Serve in bowls with shredded cheese on top
 {{% /instructions %}}
