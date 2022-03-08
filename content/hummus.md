@@ -3,14 +3,15 @@ title: "Hummus"
 date: 2022-03-08T10:31:33-08:00
 draft: false
 serves: 6 (1/3 cup servings)
-total_time_to_make: 2 hours 15 minutes
-time_to_prepare: 1 hour 15 minutes
-time_to_cook: 1 hour
+total_time_to_make: 135
+time_to_prepare: 75
+time_to_cook: 60
 tags:
 - vegan
 - gluten-free
 meal-types:
 - snack
+- appetizer
 ---
 
 {{% ingredients %}}
