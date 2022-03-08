@@ -10,3 +10,12 @@ tags:
 meal-types:
 ---
 
+{{% ingredients %}}
+- first ingredient
+- second ingredient
+{{% /ingredients %}}
+
+{{% instructions %}}
+- step 1
+- step 2
+{{% /instructions %}}
