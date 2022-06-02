@@ -8,7 +8,7 @@ time_to_prepare: 15
 time_to_cook: 35
 tags:
 meal-types:
--dinner
+- dinner
 ---
 
 {{% ingredients %}}
