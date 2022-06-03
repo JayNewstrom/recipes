@@ -21,11 +21,13 @@ image: butter-chicken.jpg
 - 2 large onion, diced small
 - 2 tablespoons ginger
 - 2 tablespoons minced garlic
-- 2 tablespoons garam masala
-- 2 teaspoons curry powder
-- 2 teaspoons ground coriander
+- 4 tablespoons garam masala
+- 2 tablespoons curry powder
+- 1 tablespoon ground coriander
 - 1/2 teaspoon cayenne pepper
-- 2 teaspoons salt
+- 1 tablespoon salt
+- 1 teaspoon pepper
+- 2 teaspoons onion powder
 - 3 ounces tomato paste
 - 2 (13.5 oz) canned full fat coconut milk
 - 4 carrots (optional)
