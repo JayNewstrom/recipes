@@ -251,6 +251,8 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     response_page_path    = "/"
   }
 
+  http_version = "http2and3"
+
   wait_for_deployment = false
   tags                = var.aws_tags
 }
