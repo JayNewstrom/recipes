@@ -78,13 +78,7 @@ data "aws_iam_policy_document" "failover_bucket_policy" {
 
 resource "aws_s3_bucket" "primary_s3_bucket" {
   bucket = var.domain_name
-  acl    = "private"
-  policy = data.aws_iam_policy_document.primary_bucket_policy.json
   tags   = var.aws_tags
-
-  versioning {
-    enabled = true
-  }
 
   lifecycle {
     ignore_changes = [
@@ -93,16 +87,47 @@ resource "aws_s3_bucket" "primary_s3_bucket" {
   }
 }
 
+resource "aws_s3_bucket_versioning" "primary_s3_bucket_versioning" {
+  bucket = aws_s3_bucket.primary_s3_bucket.id
+  versioning_configuration {
+    status = "Enabled"
+  }
+}
+
+resource "aws_s3_bucket_acl" "primary_bucket_acl" {
+  bucket = aws_s3_bucket.primary_s3_bucket.id
+  acl    = "private"
+}
+
+resource "aws_s3_bucket_policy" "primary_bucket_policy" {
+  bucket = aws_s3_bucket.primary_s3_bucket.id
+  policy = data.aws_iam_policy_document.primary_bucket_policy.json
+}
+
 resource "aws_s3_bucket" "failover_s3_bucket" {
   provider = aws.west
   bucket   = "${var.domain_name}.failover"
-  acl      = "private"
-  policy   = data.aws_iam_policy_document.failover_bucket_policy.json
   tags     = var.aws_tags
+}
 
-  versioning {
-    enabled = true
+resource "aws_s3_bucket_versioning" "failover_s3_bucket_versioning" {
+  provider = aws.west
+  bucket = aws_s3_bucket.failover_s3_bucket.id
+  versioning_configuration {
+    status = "Enabled"
   }
+}
+
+resource "aws_s3_bucket_acl" "failover_bucket_acl" {
+  provider = aws.west
+  bucket = aws_s3_bucket.failover_s3_bucket.id
+  acl    = "private"
+}
+
+resource "aws_s3_bucket_policy" "failover_bucket_policy" {
+  provider = aws.west
+  bucket = aws_s3_bucket.failover_s3_bucket.id
+  policy = data.aws_iam_policy_document.failover_bucket_policy.json
 }
 
 resource "aws_s3_bucket_public_access_block" "bucket" {
