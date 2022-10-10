@@ -29,9 +29,9 @@ meal-types:
 
 {{% instructions %}}
 - Prepare noodles according to package directions. When they are cooked, drain and set aside.
-- In a large skillet over medium-high heat, brown the beef, breaking it up into pieces as it cooks.
-- Add the onions to the pan and sauté, stirring frequently, until translucent and soft – about 5 minutes.
+- In a large Dutch oven over medium-high heat, brown the beef, breaking it up into pieces as it cooks.
+- Add the onions to the Dutch oven and sauté, stirring frequently, until translucent and soft – about 5 minutes.
 - Sprinkle the flour over the beef and onion, stirring to evenly coat and allow the flour to absorb oil.
-- Add the beef broth, milk, corn starch, Dijon, Worcestershire, and beef bouillon to the pan. Stir until combined, and allow the sauce to simmer until thickened.
+- Add the beef broth, milk, corn starch, Dijon, Worcestershire, and beef bouillon to the Dutch oven. Stir until combined, and allow the sauce to simmer until thickened.
 - Toss the noodles to coat evenly with the sauce. Adjust seasoning with salt & pepper and garnish with parsley before serving.
 {{% /instructions %}}

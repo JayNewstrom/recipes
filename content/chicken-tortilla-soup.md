@@ -33,11 +33,9 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Before you begin cooking, turn your oven on to 400˚.
 - Get all ingredients out before you begin. You can do the tasks such as shredding cheese and slicing avocado and lime while the soup is cooking.
-- In a dutch oven or large pot, add the chicken broth, raw chicken, minced garlic, chili powder, cumin, and paprika. Turn heat to high to bring to boil. Boil for 10 minutes.
-- While chicken is cooking for 10 minutes, prepare tortilla strips. See below for instructions.
-- Turn heat to lowest setting. Remove chicken from pot onto cutting board. Shred the chicken meat with two forks. Return chicken to soup pot and turn to high heat.
+- In a Dutch oven, add the chicken broth, raw chicken, minced garlic, chili powder, cumin, and paprika. Turn heat to high to bring to boil. Boil for 10 minutes.
+- Turn heat to the lowest setting. Remove chicken from pot onto cutting board. Shred the chicken meat with two forks. Return chicken to soup pot and turn to high heat.
 - Add diced tomatoes with juice and corn to soup mixture. Boil on high heat for 5 minutes.
 - Remove from heat. Stir in lime juice, pepper and tumeric. Scoop out a bit to cool and taste. You may desire to increase any seasonings or add some salt if desired.
 {{% /instructions %}}
