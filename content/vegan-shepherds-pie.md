@@ -1,5 +1,5 @@
 ---
-title: "Shepherds Pie"
+title: "Vegan Shepherds Pie"
 date: 2020-03-05T11:20:25-06:00
 draft: false
 serves: 6
