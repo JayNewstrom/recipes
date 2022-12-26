@@ -2,3 +2,4 @@
 .idea/
 hugo_to_json
 /static/json/index.json
+/.hugo_build.lock
