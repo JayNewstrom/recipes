@@ -21,7 +21,7 @@ jobs:
       - name: hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          version: 0.101.0
+          version: 0.109.0
       - name: Build search index
         run: ./download-and-run-hugo-to-json.sh
       - name: Build
