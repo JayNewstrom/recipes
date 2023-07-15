@@ -40,4 +40,4 @@ meal-types:
 - When done. Natural Pressure Release for 5 minutes and then do a QUICK RELEASE
 - Remove lid away from you, add lime juice, mix well, top with nuts and crasins
 - Spinach Rice is ready
-{{% instructions %}}
+{{% /instructions %}}
