@@ -41,4 +41,4 @@ meal-types:
 - Roast for 20-30 minutes, turning the pans and giving them a shake every ten minutes. Cauliflower and broccoli takes about 30 minutes, carrots and chickpeas take about 20, so start the broccoli/cauliflower first and put the chickpeas/carrots in after the first 10 minutes. (Every oven is different, so keep an eye on everything to make sure you don't burn them.)
 - Combine all dressing ingredients in a small bowl  or cup and whisk until smooth. Add more water, as needed, to thin. Set aside.
 - When veggies and chickpeas are done, make your bowls! A little rice, broccoli, cauliflower, carrots, chickpeas, sesame seeds and dressing in each individual bowl. This is also good with BBQ sauce rather than the tahini sauce.
-{{% instructions %}}
+{{% /instructions %}}
