@@ -35,7 +35,7 @@ meal-types:
 - Heat drizzle of oil in large pan over medium high heat. Added tofu/chicken turning occasionally until browned on all sides. Turn off heat and transfer to plate. Wipe out pan.
 - Heat drizzle of oil in pan over medium high heat. Add broccoli with pinch of salt and cook until tender (6-8 minutes). Stir occasionally.
 - While broccoli cooks, whisk hoisin, sweet soy glaze, sriracha, and remaining cornstarch (1/2 TBSP) and 1/3 cups of water.
-- Reduce heat under pain with broccoli to low and stir in hoisin-soy mixture. Cook, stirring occasionally until sauce thickened (~2 minutes).
+- Reduce heat under pan with broccoli to low and stir in hoisin-soy mixture. Cook, stirring occasionally until sauce thickened (~2 minutes).
 - Transfer seared tofu or chicken to pan. Stir until fully coated ~1-2 minutes. Taste and season with salt and pepper.
 - Drain pickled cucumbers.
 - Divide rice, top with tofu/chicken and broccoli and pickled cucumber. Garnish with green scallions.
