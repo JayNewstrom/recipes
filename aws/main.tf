@@ -406,7 +406,7 @@ resource "aws_lambda_function" "redirect" {
   function_name    = "RecipesRedirectToIndex"
   role             = aws_iam_role.lambda_redirect.arn
   handler          = "redirect.handler"
-  runtime          = "nodejs14.x"
+  runtime          = "nodejs18.x"
   source_code_hash = data.archive_file.redirect.output_base64sha256
   filename         = data.archive_file.redirect.output_path
   publish          = true
