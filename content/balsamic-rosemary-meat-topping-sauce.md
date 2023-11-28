@@ -14,13 +14,13 @@ meal-types:
 
 {{% ingredients %}}
 - Oil drizzle
-- 1/4 oz chopped Rosemary
-- Chicken stock concentrate
-- 5 tsp Balsamic vinegar
+- 2 TBSP chopped Rosemary
+- 1 TBSP Chicken stock concentrate
+- 2 TBSP Balsamic vinegar
 - 1/4 c water
 - 2 tsp Sugar
 - Pepper to taste
-- T TBSP Garlic herb butter
+- 1 TBSP Garlic herb butter
 {{% /ingredients %}}
 
 {{% instructions %}}
