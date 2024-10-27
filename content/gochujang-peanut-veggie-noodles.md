@@ -45,8 +45,8 @@ meal-types:
 - Cut onions, garlic and ginger.
 - Small bowl whisk together coconut aminos, PB, sugar, sesame oil, gochujang, lime juice, rice vinegar, and veg broth. Set aside.
 - Large skillet heat oil over medium heat. Add onion, garlic, and ginger. Sauté until fragrant (2 min). Carefully pour gochujang sauce and stir to combine. Bring to simmer/cook 2 minutes. Reduce heat to low and allow to simmer while making noodles.
-- Begin cutting noodle veggies
-- Cook noodles al dente according to package. Continue cutting veggies. Reserve 1 cup pasta water. Drain noodles and add into sauce pan. Increase heat to medium.
+- Cook noodles al dente according to package. Reserve 1 cup pasta water. Drain noodles and add into sauce pan. Increase heat to medium.
+- Begin cutting veggies
 - Use tongs to toss noodles in sauce and add pasta water in 1/4 cup increments until sauce glossy and coats noodles.
 - Add cabbage/peas and toss to combine continuing to add pasta water as needed until veggies incorporated over medium to low heat.
 - Serve in bowls topped with peanuts, scallions, and red pepper flakes.
