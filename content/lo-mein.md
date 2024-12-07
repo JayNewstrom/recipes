@@ -15,7 +15,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 16 ounces Noodles Spaghetti works best (you can also use thicker chow mein or hakka noodles)
+- 8 ounces Noodles Spaghetti works best (you can also use thicker chow mein or hakka noodles)
 - 1 teaspoon Salt adjust to taste
 - 1 teaspoon Black Pepper adjust to taste
 - Sesame seeds for garnish, if desired

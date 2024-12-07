@@ -13,8 +13,8 @@ meal-types:
 {{% ingredients %}}
 - 3 scallions
 - 1 TBSP minced ginger
-- 4 TBSP mayo
-- 4 TBSP dairy free sour cream
+- 3 TBSP mayo
+- 3 TBSP dairy free sour cream
 - 2 TBSP honey
 - 4 TBSP Soy Sauce - separated
 - 1 TBSP sriracha
@@ -33,7 +33,7 @@ meal-types:
 - Form into 1.5 inch meatballs.
 - Place meatballs on one half of the baking sheet.
 - Trim green beans if necessary. Place green beans on other half of baking sheet. Lightly drizzle with olive oil and salt and pepper to taste. Roast meatballs and green beans for 14-16 minutes (until cooked through, browned, and tender).
-- In a medium to large bowl, combine mayo, sour cream, honey, 2 tbsp (you’ll use rest later), and sriracha to taste.
+- In a medium to large bowl, combine mayo, sour cream, honey, 2 tbsp soy sauce (you’ll use rest later), and sriracha to taste.
 - Fluff rice and season with salt and pepper if necessary.
 - Toss meatballs in bowl with sauce and coat.
 - Divide rice between bowls, top with meatballs, drizzle with remaining sauce, serve with green beans and scallion greens on top.
