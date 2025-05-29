@@ -3,8 +3,8 @@ title: "Wild Rice Autumn Soup"
 date: 2025-05-25T07:08:26-06:00
 draft: false
 serves: 8
-total_time_to_make: 100
-time_to_prepare: 40
+total_time_to_make: 120
+time_to_prepare: 60
 time_to_cook: 60
 tags:
 - leftovers
