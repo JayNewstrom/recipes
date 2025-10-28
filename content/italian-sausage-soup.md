@@ -21,6 +21,7 @@ meal-types:
 - 1 large zucchini, cubed
 - 2 cups spinach - packed, rinsed, and torn
 - 1/4 tsp salt and pepper each
+- 28oz beef broth
 {{% /ingredients %}}
 
 {{% instructions %}}

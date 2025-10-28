@@ -11,14 +11,14 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 2 cans black beans
+- 3 cans black beans
 - 1 onion chopped
 - 1 large tbsp minced garlic
-- 1 tsp cumin
-- 1 tsp dried oregano
-- 1 bay leaf
+- 1 tbsp cumin
+- 1 tbsp dried oregano
+- 3 bay leaf
 - Lemon and lime juice to taste
-- 2 tsp salt
+- 1 tbsp salt
 {{% /ingredients %}}
 
 {{% instructions %}}
