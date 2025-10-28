@@ -7,6 +7,7 @@ total_time_to_make: 75
 time_to_prepare: 30
 time_to_cook: 45
 tags:
+- salad
 meal-types:
 - dinner
 ---

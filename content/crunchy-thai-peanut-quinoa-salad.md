@@ -12,7 +12,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- Salad
+#### Salad
 - 3/4 cup uncooked quinoa
 - 1.5 cups water
 - 2 cups shredded purple cabbage
@@ -21,7 +21,7 @@ meal-types:
 - 1/2 cup cilantro
 - 1/4 cup sliced green onions
 - 1/4 cup chopped roasted salted peanuts
-- Peanut Sauce
+#### Peanut Sauce
 - 1/4 cup smooth peanut butter
 - 3 TBSP coconut aminos
 - 1 TBSP maple syrup or honey
