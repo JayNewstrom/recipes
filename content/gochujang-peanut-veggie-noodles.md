@@ -2,7 +2,7 @@
 title: "Gochujang Peanut Veggie Noodles"
 date: 2024-06-15T09:14:07-06:00
 draft: false
-serves: 4
+serves: 8
 total_time_to_make: 30
 time_to_prepare: 10
 time_to_cook: 20
