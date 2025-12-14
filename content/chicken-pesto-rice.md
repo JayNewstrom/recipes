@@ -3,8 +3,8 @@ title: "Chicken Pesto Rice"
 date: 2020-03-05T10:39:44-06:00
 draft: false
 serves: 8
-total_time_to_make: 75
-time_to_prepare: 15
+total_time_to_make: 120
+time_to_prepare: 60
 time_to_cook: 60
 tags:
 - gluten-free
@@ -20,8 +20,9 @@ meal-types:
 - 2 packages of pesto mix
 - 2 jars of pesto mix
 - 4 cups of water
-- 1 tsp salt
-- 1 tsp pepper
+- 2 tsp salt
+- 2 tsp pepper
+- Optional: chopped broccoli
 {{% /ingredients %}}
 
 {{% instructions %}}

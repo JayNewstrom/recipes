@@ -22,12 +22,15 @@ meal-types:
 - 1 yellow onion, diced
 - 2 medium carrots, diced
 - 1 celery stalk, diced
-- pinch of sea salt and pepper
+- 1 tablespoon salt
+- 2 teaspoons of pepper
 - 6 orange bell peppers (any color works though), diced
 - 2 cups diced butternut squash
 - 4 cups vegetable broth
-- 1 teaspoon thyme
-- 1/2 teaspoon dried sage
+- 1 tablespoon thyme
+- 2 teaspoon dried sage
+- 2 teaspoon smoked paprika
+- 2 teaspoon chipotle chili
 {{% /ingredients %}}
 
 {{% instructions %}}
