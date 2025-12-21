@@ -19,15 +19,16 @@ meal-types:
 - 1 (14.5 oz) can great northern beans (undrained)
 - 1 cup sliced carrots
 - 1 large zucchini, cubed
-- 2 cups spinach - packed, rinsed, and torn
+- 2 cups spinach / 5oz package - packed, rinsed, and torn
 - 1/4 tsp salt and pepper each
+- 1 tbsp italian seasoning
 - 28oz beef broth
 {{% /ingredients %}}
 
 {{% instructions %}}
 - Gather all ingredients.
 - Heat Dutch oven over med-high heat. Add meat and garlic and cook until browned.
-- Stir in broth, tomatoes, and carrots. Season with salt/pepper. Reduce heat to med-low, cover and simmer 15 min.
+- Stir in broth, tomatoes, and carrots. Season with salt/pepper, italian seasoning. Reduce heat to med-low, cover and simmer 15 min.
 - Stir in beans with its liquid and zucchini. Cover and simmer 15 min until veg tender.
 - Remove from heat and add spinach. Replace lid to allow spinach to wilt.
 - Stir and serve.

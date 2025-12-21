@@ -17,7 +17,7 @@ meal-types:
 
 #### Sauce
 - 4.5 TBSP coconut aminos
-- 1/3 cup packed brown sugar
+- 1/4 cup packed brown sugar
 - 2 TBSP monk fruit
 - 1/3 cup fish sauce
 - 4.5 TBSP oyster sauce
@@ -32,7 +32,7 @@ meal-types:
 - 1 lbs chicken breast or thigh sliced thinly
 - 4 eggs, whisked
 - 1-2 cups bean sprouts or 1 can
-- 1 red bell pepper thinly sliced
+- 2 red bell pepper thinly sliced
 - 3-4 green onion, chopped 1/4" pieces
 - 1/2 cup peanuts chopped
 - Optional: garnish with lime wedges, ground chili/cayenne, more bean sprouts
