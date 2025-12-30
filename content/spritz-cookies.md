@@ -13,12 +13,12 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 270g all-purpose flour
-- 148.5g sugar
+- 300g all-purpose flour
+- 165g sugar
 - 3g salt
 - 1g baking powder
-- 59g egg (+ water if necessary to meet the weight)
-- 226g butter
+- 65g egg (+ water if necessary to meet the weight)
+- 250g butter
 - 5g vanilla
 {{% /ingredients %}}
 
