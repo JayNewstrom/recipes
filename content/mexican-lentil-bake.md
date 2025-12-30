@@ -1,5 +1,5 @@
 ---
-title: "Mexican Lentil Rice Bake"
+title: "Mexican Lentil Bake"
 date: 2021-10-20T12:17:31-05:00
 draft: false
 serves: 6
@@ -14,12 +14,12 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 onion, diced
-- 1 cup red lentils
-- 1 cup rice
-- 1 bell pepper, diced
+- 1 pound ground beef
+- 1-2 onion, diced
+- 2 cup red lentils
+- 2-3 bell pepper, diced
 - 2 Tbs minced garlic
-- 4 cups vegetable broth
+- 4 cups beef bone broth
 - 1 jar (16oz) salsa
 - 1 can black beans, drained, rinsed
 - 2 Tbs taco seasoning
@@ -27,8 +27,8 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Preheat oven to 375
-- Combine onions, lentils, rice, bell peppers, salsa, black beans, and taco seasoning in the 3 qt baking dish, cover tightly with foil
-- Bake for an hour and a half
+- Combine onions, lentils, rice, bell peppers, salsa, black beans, and taco seasoning in instant pot
+- Cook on high pressure for 10 minutes, natural release for 10 minutes
+- Brown ground beef in a skillet, and add taco seasoning to taste
 - Serve in bowls with shredded cheese on top
 {{% /instructions %}}
