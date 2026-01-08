@@ -12,9 +12,9 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 190g Chia seeds
-- 130g Ground flax
-- 20g salt
+- 190g Ground chia seeds
+- 130g Ground flax seeds
+- 20g Iodized salt
 - 400g [peanut butter powder](https://www.microingredients.com/products/pblite-pure-peanut-powder-4lbs)
 - 200g [protien powder](https://www.optimumnutrition.com/en-us/products/gold-standard-100-whey-protein-powder?variant=52138905305355)
 - 100g [hemp hearts](https://manitobaharvest.com/collections/hemp-hearts/products/natural-hemp-hearts)
