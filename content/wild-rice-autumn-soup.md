@@ -2,7 +2,7 @@
 title: "Wild Rice Autumn Soup"
 date: 2025-05-25T07:08:26-06:00
 draft: false
-serves: 8
+serves: 12
 total_time_to_make: 120
 time_to_prepare: 60
 time_to_cook: 60
@@ -14,7 +14,7 @@ meal-types:
 
 {{% ingredients %}}
 - 2 lbs chicken
-- 6 cups vegetable broth
+- 8 cups chicken bone broth
 - 2 cups uncooked wild rice
 - 8 oz baby bella mushrooms, sliced
 - 4 cloves garlic, minced
@@ -33,7 +33,7 @@ meal-types:
 - Instant pot chicken via poultry setting for 10-12 minutes.
 - While chicken is cooking wash/prep veggies above kale. Place in large bowl.
 - Remove chicken from instant pot and set aside to shred later. Rinse instant pot.
-- Combine veg stock, wild rice, mushrooms, garlic, carrots, celery, sweet potato, onion, and old bay seasoning in instant pot. Add bay leaves.
+- Combine chicken bone broth, wild rice, mushrooms, garlic, carrots, celery, sweet potato, onion, and old bay seasoning in instant pot. Add bay leaves.
 - Pressure-cook: high pressure 25 minutes. Naturally release 10 minutes then vent.
 - While cooking, shred chicken and roughly chop kale and place in large bowl.
 - Warm up milk in sauce pan, add cornstarch slurry if desired for thicker milk if not using coconut milk.
