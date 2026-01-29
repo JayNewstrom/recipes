@@ -14,7 +14,7 @@ meal-types:
 {{% ingredients %}}
 - 190g Ground chia seeds
 - 100g Ground flax seeds
-- 20g Iodized salt
+- 10g Iodized salt
 - 400g [peanut butter powder](https://www.microingredients.com/products/pblite-pure-peanut-powder-4lbs)
 - 100g [whey protien powder](https://www.optimumnutrition.com/en-us/products/gold-standard-100-whey-protein-powder?variant=52138905305355)
 - 100g [collagen protien powder](https://www.bulksupplements.com/products/hydrolyzed-bovine-collagen-powder)
