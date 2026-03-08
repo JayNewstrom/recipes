@@ -23,10 +23,10 @@ meal-types:
 
 #### Stir fry
 - 2 lbs chicken breast - 1 inch chunks
-- 1 white onion thinly sliced
-- 8 baby Bella mushrooms stems removed and cut into 4ths
-- 1 med-large zucchini - thin short strips
-- 4 carrots cut into thin short strips
+- 2 white onions thinly sliced
+- 16 baby Bella mushrooms stems removed and cut into 4ths
+- 2 med-large zucchini - thin short strips
+- 8 carrots cut into thin short strips
 - 2 TBSP Avacado oil
 - 1 TBSP butter or ghee
 - Salt and pepper to taste
