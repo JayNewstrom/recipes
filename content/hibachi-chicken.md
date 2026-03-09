@@ -2,10 +2,10 @@
 title: "Hibachi Chicken"
 date: 2024-06-15T09:11:19-06:00
 draft: false
-serves: 6
-total_time_to_make: 50
+serves: 10
+total_time_to_make: 70
 time_to_prepare: 30
-time_to_cook: 20
+time_to_cook: 40
 tags:
 - leftovers
 meal-types:
@@ -14,12 +14,12 @@ meal-types:
 
 {{% ingredients %}}
 #### Magic Sauce
-- 2 tsp ground mustard powder
-- 2 TBSP warm water
-- 3 TBSP Tahini
-- 1/2 cup coconut aminos
-- 1 tsp fish sauce
-- 1 TBSP ginger minced
+- 3 tsp ground mustard powder
+- 3 TBSP warm water
+- 4 1/2 TBSP Tahini
+- 3/4 cup coconut aminos
+- 1 1/2 tsp fish sauce
+- 1 1/2 TBSP ginger minced
 
 #### Stir fry
 - 2 lbs chicken breast - 1 inch chunks
