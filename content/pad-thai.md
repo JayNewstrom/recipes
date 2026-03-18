@@ -24,6 +24,7 @@ meal-types:
 - 4 TBSP rice wine vinegar
 - 2 TBSP sriracha
 - 4 TBSP peanut butter
+- 1/2 tsp thai chili powder
 
 #### Stir fry
 - 2-3 TBSP neutral oil
@@ -43,7 +44,7 @@ meal-types:
 - Cut chicken and while doing #3 cut veg
 - Cook garlic/onion and then add chicken and cook until mostly cooked through
 - Add bell pepper
--  Cook per package, quickly rinse. Don't let sit more than 5 minutes
+- Cook per package, quickly rinse. Don't let sit more than 5 minutes
 - Mix sauce in a small bowl
 - Push chicken/veg to side and scramble eggs
 - Add bean sprouts, noodles and then sauce until absorbed by noodles
