@@ -2,10 +2,10 @@
 title: "Asian Creamy Noodle Salad"
 date: 2025-05-25T07:14:19-06:00
 draft: false
-serves: 2
+serves: 6
 total_time_to_make: 75
 time_to_prepare: 30
-time_to_cook: 45
+time_to_cook: 30
 tags:
 - salad
 meal-types:
