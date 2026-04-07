@@ -22,7 +22,6 @@ meal-types:
 - 30g [psyllium husk powder](https://www.iherb.com/pr/149845)
 - 30g [inulin powder](https://138foods.com/products/its-just-inulin-prebiotic-fiber-32oz?variant=39619535831122)
 - 20g [camu camu powder](https://www.microingredients.com/products/organic-camu-camu-powder)
-- 20g [creatine](https://www.thorne.com/products/dp/creatine)
 - 1/2 tsp [stevia powder](https://www.microingredients.com/products/organic-stevia-powder)
 {{% /ingredients %}}
 
