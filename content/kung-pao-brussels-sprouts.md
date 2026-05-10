@@ -35,7 +35,7 @@ meal-types:
 - Trim nubs and remove discolored brussels sprouts leaves, then cut in half lengthwise
 - Transfer brussels to a large baking sheet, toss with light amount oil, arrange sprouts with flat end down and roast for 25-30 min until dark and caramelized ends. Toss halfway through.
 - Meanwhile, prepare sauce in the smallest sauce pan. Add all sauce ingredients and whisk until combined.
-- Bring mixture to boil and reduce heat to medium until sauce has thickened (~8-10 min). It's done when you remove from heat so no longer bubbling and then tilt pot carefully, the sauce will slide not slosh.
+- Bring mixture to boil and reduce heat to medium until sauce has thickened (~20 min). It's done when you remove from heat so no longer bubbling and then tilt pot carefully, the sauce will slide not slosh.
 - Let brussels cool for a few minutes and then transfer to medium-sized serving bowl and pour sauce over them.
 - Add garnishes and mix until combined. Serve.
 {{% /instructions %}}
