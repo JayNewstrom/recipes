@@ -15,11 +15,11 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 8 ounces Noodles Spaghetti works best (you can also use thicker chow mein or hakka noodles)
+- 8 ounces banzaa chickpea spaghetti noodles
 - 1 teaspoon Salt adjust to taste
 - 1 teaspoon Black Pepper adjust to taste
 - Sesame seeds for garnish, if desired
-- 1 cup Cabbage thinly sliced
+- 2 cup Cabbage thinly sliced
 - 2 Carrot peeled and sliced into matchsticks
 - 1 cup Bell Pepper thinly sliced
 - 1/2 cup Scallion or Green onion white and green part divided
