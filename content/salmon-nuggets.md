@@ -16,7 +16,7 @@ meal-types:
 - 1 lbs salmon, skinless and cubed
 - 1 tsp onion powder
 - 1 tsp paprika
-- 1 tsp salt
+- 1/2 tsp salt
 - 1/2 tsp pepper
 - 1 TBSP avocado oil
 - 3/4 cups GF panko bread crumbs
