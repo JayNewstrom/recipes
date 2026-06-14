@@ -30,7 +30,7 @@ meal-types:
 - 1 tablespoon thyme
 - 2 teaspoon dried sage
 - 2 teaspoon smoked paprika
-- 2 teaspoon chipotle chili
+- 1 teaspoon chipotle chili
 {{% /ingredients %}}
 
 {{% instructions %}}
