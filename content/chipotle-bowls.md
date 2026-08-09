@@ -40,11 +40,18 @@ meal-types:
 - 3 bay leaf
 - Lemon and lime juice to taste
 - 1 tbsp salt
+
+#### Lime Rice
+- 2 cup rice or quinoa
+- 2 bay leafs
+- 1 TBSP Salt
+- 4 TBSP cilantro
+- 2-4 TBSP lemon AND lime juice
 {{% /ingredients %}}
 
 {{% instructions %}}
 - Marinade (at least 5 hours)
-- Make 2 cups of quiona or rice
+- Make 2 cups of quiona or rice (2 cups of chicken stock or water in instant pot for 3 minute + 10 minutes natural release)
 - Do NOT drain beans. Combine all beans ingredients and simmer for 10-20 minutes on low heat
 - Slice onions/bell peppers and saute on medium heat for 10-20 minutes
 - Grill chicken, dice after grilling
