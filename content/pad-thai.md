@@ -16,12 +16,12 @@ meal-types:
 - Pad Thai Dried Rice noodles 8oz
 
 #### Sauce
-- 4.5 TBSP coconut aminos
-- 1/4 cup packed brown sugar
-- 2 TBSP monk fruit
+- 1/3 cup coconut aminos
+- 1/8 cup packed brown sugar
+- 1/8 cup monk fruit
 - 1/3 cup fish sauce
-- 4.5 TBSP oyster sauce
-- 4 TBSP rice wine vinegar
+- 1/3 cup oyster sauce
+- 1/4 cup rice wine vinegar
 - 2 TBSP sriracha
 - 4 TBSP peanut butter
 - 1/2 tsp thai chili powder
