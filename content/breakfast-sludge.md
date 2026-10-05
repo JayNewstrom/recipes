@@ -12,7 +12,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 190g Ground chia seeds
+- 100g Ground chia seeds
 - 100g Ground flax seeds
 - 10g Iodized salt
 - 400g [peanut butter powder](https://www.microingredients.com/products/pblite-pure-peanut-powder-4lbs)
@@ -20,6 +20,8 @@ meal-types:
 - 100g [collagen protien powder](https://www.bulksupplements.com/products/hydrolyzed-bovine-collagen-powder)
 - 100g [egg white protein powder](https://www.bulksupplements.com/products/egg-white-paleo-protein-powder)
 - 100g [hemp hearts](https://manitobaharvest.com/collections/hemp-hearts/products/natural-hemp-hearts)
+- 50g [cacao powder](https://a.co/d/07v8nJ5i)
+- 100g [oat bran](https://a.co/d/06CTwBt2)
 - 50g [psyllium husk powder](https://www.iherb.com/pr/149845)
 - 5g [inulin powder](https://138foods.com/products/its-just-inulin-prebiotic-fiber-32oz?variant=39619535831122)
 - 10g [camu camu powder](https://www.microingredients.com/products/organic-camu-camu-powder)
