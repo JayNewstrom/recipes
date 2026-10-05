@@ -22,7 +22,7 @@ meal-types:
 - 100g [hemp hearts](https://manitobaharvest.com/collections/hemp-hearts/products/natural-hemp-hearts)
 - 50g [psyllium husk powder](https://www.iherb.com/pr/149845)
 - 5g [inulin powder](https://138foods.com/products/its-just-inulin-prebiotic-fiber-32oz?variant=39619535831122)
-- 20g [camu camu powder](https://www.microingredients.com/products/organic-camu-camu-powder)
+- 10g [camu camu powder](https://www.microingredients.com/products/organic-camu-camu-powder)
 - 1/2 tsp [stevia powder](https://www.microingredients.com/products/organic-stevia-powder)
 {{% /ingredients %}}
 
