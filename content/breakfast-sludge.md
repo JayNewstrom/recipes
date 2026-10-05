@@ -2,7 +2,7 @@
 title: "Breakfast Sludge"
 date: 2026-01-08T12:16:50-07:00
 draft: false
-serves: 14
+serves: 10
 total_time_to_make: 5
 time_to_prepare: 5
 time_to_cook: 0
