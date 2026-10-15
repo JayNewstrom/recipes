@@ -1,6 +1,6 @@
 ---
-title: "Chocolate Quinoa Bars"
-date: 2026-10-15T16:49:00-07:00
+title: "Chocolate Quinoa Clusters"
+date: 2026-10-14T16:49:00-07:00
 draft: false
 serves: 0
 total_time_to_make: 45
