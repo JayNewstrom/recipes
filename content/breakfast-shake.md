@@ -1,5 +1,5 @@
 ---
-title: "Breakfast Sludge"
+title: "Breakfast Shake"
 date: 2026-01-08T12:16:50-07:00
 draft: false
 serves: 10
