@@ -31,11 +31,12 @@ meal-types:
 - 1/2 tsp each salt, pepper, garlic powder, and paprika
 
 #### Rice / Quinoa
-- 2 cups rice or quinoa
-- 2 TBSP olive oil
+- 2 cups basmati rice or quinoa
+- 1 TBSP olive oil
 - 2 tsp turmeric
 - 1 tsp cinnamon
 - 2 cups chicken bone broth
+- 1/2 tsp salt
 
 #### White Sauce
 - 2/3 cup plain Greek yogurt (or tzatziki)
@@ -46,10 +47,10 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Trim chicken and cut into bite-size pieces. Season the chicken with oil, salt, pepper, garlic powder, turmeric, smoked paprika, cumin, and lemon juice; set aside.
-- In a pressure cooker (Instant Pot), combine rice or quinoa, olive oil, turmeric, cinnamon, and chicken bone broth. Stir together, seal lid, and pressure cook on high for 3-5 minutes, then allow a 10-minute natural pressure release.
+- Trim chicken and cut into bite-size pieces. Season chicken with oil, salt, pepper, garlic powder, turmeric, smoked paprika, cumin, and lemon juice; set aside.
+- In a pressure cooker (Instant Pot), combine basmati rice or quinoa, olive oil, turmeric, cinnamon, chicken bone broth, and salt. Stir together, seal lid, and pressure cook on high for 3-5 minutes, then allow a 10-minute natural pressure release. Fluff and add additional salt to taste if desired.
+- Cut vegetables of choice (broccoli, green beans, or Brussels sprouts) into bite-size pieces and season with oil, 1/2 tsp each of salt, pepper, garlic powder, and paprika. Roast on a baking sheet at 400°F for ~30 minutes, stirring halfway through.
 - In a small bowl, whisk together the white sauce ingredients (Greek yogurt, lemon juice, salt, pepper, and garlic powder). Set aside in the fridge.
-- Cut veg as needed and season with 1/2 tsp each of salt, pepper, garlic powder, and paprika. Cook on cooking surface/pan as desired.
-- Sear seasoned chicken in a hot skillet for 2-3 minutes per side until cooked through. Deglaze pan with a splash of water if needed.
-- Assemble bowls with the pressure-cooked rice on the bottom, topped with chicken and vegetables. Top with the white sauce.
+- When the veg and rice have about 15 minutes left, heat a skillet over medium-high heat. Sear seasoned chicken for 2-3 minutes per side until golden brown and cooked through. Deglaze pan with a splash of water if needed.
+- Assemble bowls with the pressure-cooked rice on the bottom, topped with browned chicken and roasted vegetables. Finish with a drizzle of white sauce.
 {{% /instructions %}}
