@@ -20,7 +20,7 @@ meal-types:
 - 1/8 cup packed brown sugar
 - 1/8 cup monk fruit
 - 1/3 cup fish sauce
-- 1/3 cup oyster sauce
+- 1/4 cup oyster sauce
 - 1/4 cup rice wine vinegar
 - 2 TBSP sriracha
 - 4 TBSP peanut butter
