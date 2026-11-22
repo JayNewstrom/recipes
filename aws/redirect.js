@@ -16,37 +16,37 @@
   limitations under the License.
 */
 
-exports.handler = (event, context, callback) => {
+exports.handler = async (event) => {
     const request = event.Records[0].cf.request;
 
     let prefixPath; // needed for 2nd condition
 
     if (request.uri.match('.+/$')) {
         request.uri += 'index.html';
-        callback(null, request);
+        return request;
     } else if (prefixPath = request.uri.match('(.+)/index.html')) {
         const response = {
             status: '301',
-            statusDescription: 'Found',
+            statusDescription: 'Moved Permanently',
             headers: {
                 location: [{
                     key: 'Location', value: prefixPath[1] + '/',
                 }],
             }
         };
-        callback(null, response);
+        return response;
     } else if (request.uri.match('/[^/.]+$')) {
         const response = {
             status: '301',
-            statusDescription: 'Found',
+            statusDescription: 'Moved Permanently',
             headers: {
                 location: [{
                     key: 'Location', value: request.uri + '/',
                 }],
             }
         };
-        callback(null, response);
+        return response;
     } else {
-        callback(null, request);
+        return request;
     }
-}
+};

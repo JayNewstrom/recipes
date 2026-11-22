@@ -1,17 +1,28 @@
 variable "domain_name" {
+  type        = string
+  description = "Domain name for the recipes site and primary S3 bucket"
 }
 
 variable "cloudflare_zone" {
+  type        = string
+  description = "Cloudflare Zone ID for DNS records"
 }
 
 variable "github_oidc_repository_slug" {
+  type        = string
+  description = "GitHub OIDC subject claim pattern allowed to assume the deploy role"
 }
 
 variable "cloudflare_api_token" {
+  type        = string
+  sensitive   = true
+  description = "Cloudflare API token with DNS edit permissions"
 }
 
 variable "aws_profile" {
-  default = ""
+  type        = string
+  default     = ""
+  description = "AWS CLI profile name (optional)"
 }
 
 variable "aws_tags" {
@@ -21,22 +32,19 @@ variable "aws_tags" {
 }
 
 variable "cloudfront_price_class" {
+  type        = string
   default     = "PriceClass_100" // Only US,Canada,Europe
   description = "CloudFront distribution price class"
 }
 
 variable "dns_validation_ttl" {
-  default = 120
+  type        = number
+  default     = 120
+  description = "TTL in seconds for ACM DNS validation records"
 }
 
 variable "dns_ttl" {
-  default = 1 // 1 is automatic.
-}
-
-variable "dns_validation_allow_overwrite_records" {
-  default = true
-}
-
-variable "dns_allow_overwrite_records" {
-  default = true
+  type        = number
+  default     = 1 // 1 is automatic.
+  description = "TTL in seconds for the site CNAME record (1 for automatic)"
 }

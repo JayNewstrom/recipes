@@ -1,8 +1,18 @@
 terraform {
+  required_version = ">= 1.10.0"
+
   required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 6.0"
+    }
     cloudflare = {
       source  = "cloudflare/cloudflare"
-      version = "~> 3.0"
+      version = "~> 5.0"
+    }
+    archive = {
+      source  = "hashicorp/archive"
+      version = "~> 2.0"
     }
   }
 }
@@ -10,26 +20,24 @@ terraform {
 provider "aws" {
   region  = "us-east-1"
   profile = var.aws_profile
+
+  default_tags {
+    tags = var.aws_tags
+  }
 }
 
 provider "aws" {
   alias   = "west"
   region  = "us-west-2"
   profile = var.aws_profile
+
+  default_tags {
+    tags = var.aws_tags
+  }
 }
 
 provider "cloudflare" {
   api_token = var.cloudflare_api_token
-}
-
-locals {
-  validation_domains = distinct(
-  [
-  for k, v in aws_acm_certificate.certificate[0].domain_validation_options : merge(
-  tomap(v), { domain_name = replace(v.domain_name, "*.", "") }
-  )
-  ]
-  )
 }
 
 data "aws_iam_policy_document" "primary_bucket_policy" {
@@ -78,13 +86,6 @@ data "aws_iam_policy_document" "failover_bucket_policy" {
 
 resource "aws_s3_bucket" "primary_s3_bucket" {
   bucket = var.domain_name
-  tags   = var.aws_tags
-
-  lifecycle {
-    ignore_changes = [
-      replication_configuration
-    ]
-  }
 }
 
 resource "aws_s3_bucket_versioning" "primary_s3_bucket_versioning" {
@@ -94,9 +95,12 @@ resource "aws_s3_bucket_versioning" "primary_s3_bucket_versioning" {
   }
 }
 
-resource "aws_s3_bucket_acl" "primary_bucket_acl" {
+resource "aws_s3_bucket_ownership_controls" "primary_bucket_ownership" {
   bucket = aws_s3_bucket.primary_s3_bucket.id
-  acl    = "private"
+
+  rule {
+    object_ownership = "BucketOwnerEnforced"
+  }
 }
 
 resource "aws_s3_bucket_policy" "primary_bucket_policy" {
@@ -107,27 +111,29 @@ resource "aws_s3_bucket_policy" "primary_bucket_policy" {
 resource "aws_s3_bucket" "failover_s3_bucket" {
   provider = aws.west
   bucket   = "${var.domain_name}.failover"
-  tags     = var.aws_tags
 }
 
 resource "aws_s3_bucket_versioning" "failover_s3_bucket_versioning" {
   provider = aws.west
-  bucket = aws_s3_bucket.failover_s3_bucket.id
+  bucket   = aws_s3_bucket.failover_s3_bucket.id
   versioning_configuration {
     status = "Enabled"
   }
 }
 
-resource "aws_s3_bucket_acl" "failover_bucket_acl" {
+resource "aws_s3_bucket_ownership_controls" "failover_bucket_ownership" {
   provider = aws.west
-  bucket = aws_s3_bucket.failover_s3_bucket.id
-  acl    = "private"
+  bucket   = aws_s3_bucket.failover_s3_bucket.id
+
+  rule {
+    object_ownership = "BucketOwnerEnforced"
+  }
 }
 
 resource "aws_s3_bucket_policy" "failover_bucket_policy" {
   provider = aws.west
-  bucket = aws_s3_bucket.failover_s3_bucket.id
-  policy = data.aws_iam_policy_document.failover_bucket_policy.json
+  bucket   = aws_s3_bucket.failover_s3_bucket.id
+  policy   = data.aws_iam_policy_document.failover_bucket_policy.json
 }
 
 resource "aws_s3_bucket_public_access_block" "bucket" {
@@ -150,12 +156,15 @@ resource "aws_s3_bucket_public_access_block" "failover_bucket" {
   restrict_public_buckets = true
 }
 
-resource "aws_cloudfront_distribution" "s3_distribution" {
-  depends_on = [
-    aws_s3_bucket.primary_s3_bucket,
-    aws_s3_bucket.failover_s3_bucket
-  ]
+data "aws_cloudfront_cache_policy" "caching_optimized" {
+  name = "Managed-CachingOptimized"
+}
 
+data "aws_cloudfront_response_headers_policy" "security_headers" {
+  name = "Managed-SecurityHeadersPolicy"
+}
+
+resource "aws_cloudfront_distribution" "s3_distribution" {
   origin_group {
     origin_id = "s3-cloudfront-group"
 
@@ -173,7 +182,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   origin {
-    domain_name = "${var.domain_name}.s3.amazonaws.com"
+    domain_name = aws_s3_bucket.primary_s3_bucket.bucket_regional_domain_name
     origin_id   = "s3-cloudfront"
 
     s3_origin_config {
@@ -182,7 +191,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   origin {
-    domain_name = "${var.domain_name}.failover.s3.amazonaws.com"
+    domain_name = aws_s3_bucket.failover_s3_bucket.bucket_regional_domain_name
     origin_id   = "s3-cloudfront-failover"
 
     s3_origin_config {
@@ -209,20 +218,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
     target_origin_id = "s3-cloudfront-group"
 
-    forwarded_values {
-      query_string = false
-
-      cookies {
-        forward = "none"
-      }
-    }
+    cache_policy_id            = data.aws_cloudfront_cache_policy.caching_optimized.id
+    response_headers_policy_id = data.aws_cloudfront_response_headers_policy.security_headers.id
 
     compress = true
 
     viewer_protocol_policy = "redirect-to-https"
-    min_ttl                = 0
-    default_ttl            = 86400
-    max_ttl                = 31536000
 
     lambda_function_association {
       event_type   = "origin-request"
@@ -240,8 +241,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    acm_certificate_arn = aws_acm_certificate_validation.certificate_validation.certificate_arn
-    ssl_support_method  = "sni-only"
+    acm_certificate_arn      = aws_acm_certificate_validation.certificate_validation.certificate_arn
+    ssl_support_method       = "sni-only"
+    minimum_protocol_version = "TLSv1.2_2025"
   }
 
   custom_error_response {
@@ -254,7 +256,6 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   http_version = "http2and3"
 
   wait_for_deployment = false
-  tags                = var.aws_tags
 }
 
 resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
@@ -262,7 +263,6 @@ resource "aws_cloudfront_origin_access_identity" "origin_access_identity" {
 }
 
 resource "aws_acm_certificate" "certificate" {
-  count             = 1
   domain_name       = var.domain_name
   validation_method = "DNS"
 
@@ -270,43 +270,40 @@ resource "aws_acm_certificate" "certificate" {
     certificate_transparency_logging_preference = "ENABLED"
   }
 
-  tags = var.aws_tags
-
   lifecycle {
     create_before_destroy = true
   }
 }
 
-resource "cloudflare_record" "validation" {
-  count = 1
+resource "cloudflare_dns_record" "validation" {
+  for_each = {
+    for dvo in aws_acm_certificate.certificate.domain_validation_options : dvo.domain_name => {
+      name    = trimsuffix(dvo.resource_record_name, ".")
+      type    = dvo.resource_record_type
+      content = trimsuffix(dvo.resource_record_value, ".")
+    }
+  }
 
   zone_id = var.cloudflare_zone
-  name    = element(local.validation_domains, count.index)["resource_record_name"]
-  type    = element(local.validation_domains, count.index)["resource_record_type"]
-  value   = replace(element(local.validation_domains, count.index)["resource_record_value"], "/.$/", "")
+  name    = each.value.name
+  type    = each.value.type
+  content = each.value.content
   ttl     = var.dns_validation_ttl
   proxied = false
-
-  allow_overwrite = var.dns_validation_allow_overwrite_records
-
-  depends_on = [aws_acm_certificate.certificate]
 }
 
 resource "aws_acm_certificate_validation" "certificate_validation" {
-  certificate_arn = aws_acm_certificate.certificate[0].arn
-
-  validation_record_fqdns = cloudflare_record.validation.*.hostname
+  certificate_arn         = aws_acm_certificate.certificate.arn
+  validation_record_fqdns = [for record in cloudflare_dns_record.validation : record.name]
 }
 
-resource "cloudflare_record" "domain_record" {
+resource "cloudflare_dns_record" "domain_record" {
   zone_id = var.cloudflare_zone
   name    = var.domain_name
   type    = "CNAME"
-  value   = aws_cloudfront_distribution.s3_distribution.domain_name
+  content = aws_cloudfront_distribution.s3_distribution.domain_name
   ttl     = var.dns_ttl
   proxied = false
-
-  allow_overwrite = var.dns_allow_overwrite_records
 }
 
 resource "aws_iam_openid_connect_provider" "github_actions" {
@@ -315,26 +312,25 @@ resource "aws_iam_openid_connect_provider" "github_actions" {
   client_id_list = [
     "sts.amazonaws.com",
   ]
-
-  thumbprint_list = ["6938fd4d98bab03faadb97b34396831e3780aea1"]
-
-  tags = var.aws_tags
 }
 
 resource "aws_iam_role" "github_actions" {
   name = "RecipesGithubActionsRole"
 
-  assume_role_policy  = jsonencode({
-    Version   = "2012-10-17"
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17"
     Statement = [
       {
-        Action    = "sts:AssumeRoleWithWebIdentity"
-        Effect    = "Allow"
-        Sid       = ""
+        Action = "sts:AssumeRoleWithWebIdentity"
+        Effect = "Allow"
+        Sid    = ""
         Principal = {
           Federated = aws_iam_openid_connect_provider.github_actions.arn
         }
         Condition = {
+          StringEquals = {
+            "token.actions.githubusercontent.com:aud" = "sts.amazonaws.com"
+          }
           StringLike = {
             "token.actions.githubusercontent.com:sub" = var.github_oidc_repository_slug
           }
@@ -342,24 +338,21 @@ resource "aws_iam_role" "github_actions" {
       },
     ]
   })
-  managed_policy_arns = [aws_iam_policy.publisher.arn]
-
-  tags = var.aws_tags
 }
 
 resource "aws_iam_policy" "publisher" {
   name = "RecipesPublish"
 
   policy = jsonencode({
-    Version   = "2012-10-17"
+    Version = "2012-10-17"
     Statement = [
       {
-        Action   = [
+        Action = [
           "s3:PutObject",
           "s3:ListBucket",
-          "s3:DeleteObject"
+          "s3:DeleteObject",
         ]
-        Effect   = "Allow"
+        Effect = "Allow"
         Resource = [
           aws_s3_bucket.primary_s3_bucket.arn,
           format("%s/*", aws_s3_bucket.primary_s3_bucket.arn),
@@ -374,15 +367,20 @@ resource "aws_iam_policy" "publisher" {
   })
 }
 
+resource "aws_iam_role_policy_attachment" "github_actions_publisher" {
+  role       = aws_iam_role.github_actions.name
+  policy_arn = aws_iam_policy.publisher.arn
+}
+
 resource "aws_iam_role" "lambda_redirect" {
   name = "RecipesLambdaRedirect"
 
   assume_role_policy = jsonencode({
-    Version   = "2012-10-17"
+    Version = "2012-10-17"
     Statement = [
       {
-        Effect    = "Allow"
-        Action    = "sts:AssumeRole"
+        Effect = "Allow"
+        Action = "sts:AssumeRole"
         Principal = {
           Service = [
             "edgelambda.amazonaws.com",
@@ -392,8 +390,11 @@ resource "aws_iam_role" "lambda_redirect" {
       },
     ]
   })
+}
 
-  tags = var.aws_tags
+resource "aws_iam_role_policy_attachment" "lambda_redirect_logs" {
+  role       = aws_iam_role.lambda_redirect.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
 data "archive_file" "redirect" {
@@ -406,7 +407,7 @@ resource "aws_lambda_function" "redirect" {
   function_name    = "RecipesRedirectToIndex"
   role             = aws_iam_role.lambda_redirect.arn
   handler          = "redirect.handler"
-  runtime          = "nodejs22.x"
+  runtime          = "nodejs24.x"
   source_code_hash = data.archive_file.redirect.output_base64sha256
   filename         = data.archive_file.redirect.output_path
   publish          = true
@@ -415,63 +416,59 @@ resource "aws_lambda_function" "redirect" {
 resource "aws_iam_role" "replication" {
   name = "RecipesS3Replication"
 
-  assume_role_policy = <<POLICY
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Action": "sts:AssumeRole",
-      "Principal": {
-        "Service": "s3.amazonaws.com"
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Action = "sts:AssumeRole"
+        Principal = {
+          Service = "s3.amazonaws.com"
+        }
+        Effect = "Allow"
+        Sid    = ""
       },
-      "Effect": "Allow",
-      "Sid": ""
-    }
-  ]
-}
-POLICY
+    ]
+  })
 }
 
 resource "aws_iam_policy" "replication" {
   name = "RecipesS3Replication"
 
-  policy = <<POLICY
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Action": [
-        "s3:GetReplicationConfiguration",
-        "s3:ListBucket"
-      ],
-      "Effect": "Allow",
-      "Resource": [
-        "${aws_s3_bucket.primary_s3_bucket.arn}"
-      ]
-    },
-    {
-      "Action": [
-        "s3:GetObjectVersionForReplication",
-        "s3:GetObjectVersionAcl",
-         "s3:GetObjectVersionTagging"
-      ],
-      "Effect": "Allow",
-      "Resource": [
-        "${aws_s3_bucket.primary_s3_bucket.arn}/*"
-      ]
-    },
-    {
-      "Action": [
-        "s3:ReplicateObject",
-        "s3:ReplicateDelete",
-        "s3:ReplicateTags"
-      ],
-      "Effect": "Allow",
-      "Resource": "${aws_s3_bucket.failover_s3_bucket.arn}/*"
-    }
-  ]
-}
-POLICY
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Action = [
+          "s3:GetReplicationConfiguration",
+          "s3:ListBucket",
+        ]
+        Effect = "Allow"
+        Resource = [
+          aws_s3_bucket.primary_s3_bucket.arn,
+        ]
+      },
+      {
+        Action = [
+          "s3:GetObjectVersionForReplication",
+          "s3:GetObjectVersionAcl",
+          "s3:GetObjectVersionTagging",
+        ]
+        Effect = "Allow"
+        Resource = [
+          "${aws_s3_bucket.primary_s3_bucket.arn}/*",
+        ]
+      },
+      {
+        Action = [
+          "s3:ReplicateObject",
+          "s3:ReplicateDelete",
+          "s3:ReplicateTags",
+        ]
+        Effect   = "Allow"
+        Resource = "${aws_s3_bucket.failover_s3_bucket.arn}/*"
+      },
+    ]
+  })
 }
 
 resource "aws_iam_role_policy_attachment" "replication" {
@@ -480,6 +477,11 @@ resource "aws_iam_role_policy_attachment" "replication" {
 }
 
 resource "aws_s3_bucket_replication_configuration" "replication" {
+  depends_on = [
+    aws_s3_bucket_versioning.primary_s3_bucket_versioning,
+    aws_s3_bucket_versioning.failover_s3_bucket_versioning,
+  ]
+
   role   = aws_iam_role.replication.arn
   bucket = aws_s3_bucket.primary_s3_bucket.id
 
