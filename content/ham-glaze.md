@@ -17,7 +17,7 @@ meal-types:
 - 1/4 apple cider vinegar
 - 1/2 tsp black pepper
 - 3/4 tsp cinnamon
-- 1/2 tsp all spice
+- 1/2 tsp allspice
 - 3/4 tsp mustard
 {{% /ingredients %}}
 

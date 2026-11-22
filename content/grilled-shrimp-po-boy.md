@@ -36,7 +36,7 @@ meal-types:
 - Remove tails from shrimp and then brush with melted butter and sprinkle Old Bay seasoning.
 - Grill shrimp for 3-4 minutes, turning once until shrimp are pink.
 - Split baguettes part way (similar to hot dog) lengthwise. Toast baguettes. 
-- Whisk ingredients fro remoulade together.
+- Whisk ingredients for remoulade together.
 - Spread remoulade sauce on cut ends of bread.
 - Layer baguette bottoms with large butterhead lettuce leaves, and dill pickle slices.
 - Drizzle hot sauce as desired.

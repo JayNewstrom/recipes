@@ -34,8 +34,8 @@ image: vegan-meatloaf.jpg
 {{% instructions %}}
 - Preheat the oven to 375ºF and line a 9-inch by 5-inch loaf pan with parchment paper. (I like to use a spray oil on the pan first, so that the parchment paper will stick in place.)
 - In a large skillet over medium heat, add the olive oil, onion, carrot, celery, and garlic. Stir occasionally until softened, about 8 to 10 minutes.
-- In a the bowl of a large food processor fitted with an "S" blade, combine the cooked lentils, oats, flax, soy sauce, thyme, cayenne, salt, and several grinds of black pepper. When the vegetables are tender, add them in, too.
+- In the bowl of a large food processor fitted with an "S" blade, combine the cooked lentils, oats, flax, soy sauce, thyme, cayenne, salt, and several grinds of black pepper. When the vegetables are tender, add them in, too.
 - Pulse several times, just until the mixture starts to stick together when you press it between your fingers. You don't want it totally smooth, for the best texture.
 - Transfer the mixture to the prepared loaf pan, then press firmly to pack it together. Brush ketchup over the top of the loaf. Bake uncovered at 375ºF for 30-40 minutes.
-- Let the loaf cool in the pan for at least 10 minutes, then use the parchment paper to easiliy lift it out of the pan. Slice and serve warm.
+- Let the loaf cool in the pan for at least 10 minutes, then use the parchment paper to easily lift it out of the pan. Slice and serve warm.
 {{% /instructions %}}

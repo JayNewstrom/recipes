@@ -24,7 +24,7 @@ meal-types:
 - 2 TBSP mayo
 - 1 tsp garlic powder
 - 10 oz ground turkey
-- [1 TBSP shawarma spice blend](/shwarma-spice-blend)
+- [1 TBSP shawarma spice blend](/shawarma-spice-blend)
 - Chicken stock concentrate
 - 1/2 oz sliced almonds
 - 2 pitas (if desired)
@@ -39,7 +39,7 @@ meal-types:
 - Heat drizzle of oil in large pan over medium-high heat. Add scallions and cook until fragrant.
 - Add turkey, shawarma spice blend, 1/2 tsp and pepper. Cook until browned (4-6 min).
 - Stir in stock concentrate and 1/4 cup of water. Reduce heat to medium low and simmer until thickened (1-2 min).
-- Fluff rice, stir in almonds and half scallions of greens. Season with salt and pepper.
+- Fluff rice, stir in almonds and half of the scallion greens. Season with salt and pepper.
 - Toast pitas if using. Spread softened butter and slice into 4 wedges.
 - Serve turkey over rice. Sprinkle diced cucumber with salt and sprinkle on top of bowl. Drizzle hot sauce and white sauce to taste.
 - Garnish with remaining scallion greens and serve with pitas.

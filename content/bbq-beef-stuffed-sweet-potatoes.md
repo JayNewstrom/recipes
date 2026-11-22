@@ -33,6 +33,6 @@ meal-types:
 - While the sweet potatoes are cooking, add 1 tbsp olive oil to a large pan over medium high heat.
 - Cook the meat until it is cooked through (about 8-10 minutes).
 - Add the seasonings to the pan with 2 tbsp water.  Stir to coat the meat in the seasoning.  Heat for an additional 2-3 minutes.
-- Once the potatoes are done cooking, cut them open length wise and fill with the BBQ Turkey.
+- Once the potatoes are done cooking, cut them open lengthwise and fill with the BBQ Beef.
 - Optionally top with your favorite BBQ sauce.
 {{% /instructions %}}

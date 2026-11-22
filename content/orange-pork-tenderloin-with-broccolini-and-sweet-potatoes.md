@@ -25,14 +25,14 @@ meal-types:
 
 {{% instructions %}}
 - Combine 1/2 cup orange juice and soy sauce in large resealable bag. Add pork tenderloin and seal. Turn bag to evenly coat pork with marinade. Refrigerate 3-5 hours turning bag occasionally.
-- Preheat oven 350 degrees. Spray 2 large rimmed baking spans with nonstick spray and set aside.
+- Preheat oven 350 degrees. Spray 2 large rimmed baking pans with nonstick spray and set aside.
 - Cut sweet potatoes in half lengthwise and then cut each half lengthwise again into 1/4 inch thick slices.
-- Cut unpeeled oranges in 1/4 inch slides.
+- Cut unpeeled oranges in 1/4 inch slices.
 - Mix sweet potatoes and oranges with 2 tbsp olive oil, pepper, garlic, and salt
 - Spread evenly on one baking sheet and roast 20 minutes or until sweet potato begins to soften, turning halfway through.
 - Remove pork tenderloin from marinade and discard marinade. Pat tenderloin dry with paper towel.
 - Heat 1 tbsp olive oil in large nonstick skillet over medium high heat. Add pork tenderloin to skillet and cook 5-6 minutes or until golden brown on all sides. Place tenderloin in baking pan with sweet potatoes and oranges.
-- Roast pork tenderloin, sweet potatoes and oranges together for 15-18 minutes or until pork reaches 145 degrees (Newstrom’s like longer heat time).
+- Roast pork tenderloin, sweet potatoes and oranges together for 15-18 minutes or until pork reaches 145 degrees (Newstroms like longer heat time).
 - Brush pork with remaining 2 tbsp of orange juice, cover loosely with foil and let stand 10 minutes.
 - Cut broccoli lengthwise and toss in 1 Tbsp olive oil. Place in other prepared baking pan and roast 9-11 minutes
 - Slice pork and serve all.

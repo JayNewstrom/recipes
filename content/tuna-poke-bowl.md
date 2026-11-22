@@ -24,16 +24,16 @@ meal-types:
 - 1/2 cup peas or edamame
 - 1/4 cucumber, chopped
 - 1 avocado, sliced
-- 1 carrot, diced or match stick
+- 1 carrot, diced or matchstick
 - 1/2 cup chopped cilantro
 - 1 tsp sesame seeds
 {{% /ingredients %}}
 
 {{% instructions %}}
 - In medium bowl, combine coconut aminos, sesame oil, mayo, vinegar, sriracha, and 1 green onion.
-- Gently fold in tuna, keeping larger chunks and refridgerate 1 hour.
+- Gently fold in tuna, keeping larger chunks and refrigerate 1 hour.
 - Make rice.
 - Prepare all veggies.
 - Place all ingredients in bowl (rice, veg).
-- Garnish bowls with avacado, green onions, sesame seeds, drizzle with cilantro.
+- Garnish bowls with avocado, green onions, sesame seeds, drizzle with cilantro.
 {{% /instructions %}}

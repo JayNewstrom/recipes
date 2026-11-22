@@ -1,5 +1,5 @@
 ---
-title: "Shwarma Spice Blend"
+title: "Shawarma Spice Blend"
 date: 2024-01-02T10:53:07-07:00
 draft: false
 serves: 0

@@ -29,10 +29,10 @@ meal-types:
 - Wash/dry produce. Trim and thinly cut cucumber. Thinly slice scallions, separating whites and greens. Cut broccoli into bite-size pieces.
 - In small bowl, combine cucumbers, vinegar, 1/2 tsp sugar and pinch of salt. Mix thoroughly and set aside.
 - Put rice in rice cooker with 1.25 cups of water, scallion whites, 1 TBSP sesame oil and pinch of salt, turn on rice cooker and cover.
-- A) While rice cooks, open and drain tofu. Press out water with paper towel. Halve crosswise and then stand tofu upright and half vertically. Lay flat and cut into 3/4 inch cubes  
+- A) While rice cooks, open and drain tofu. Press out water with paper towel. Halve crosswise and then stand tofu upright and halve vertically. Lay flat and cut into 3/4 inch cubes  
 - B) Cut chicken into 3/4 inch cubes
-- Medium bowl, combine tofu or chicken, 1 TBSP corn starch and pinch of salt. Make sure fully coated.
-- Heat drizzle of oil in large pan over medium high heat. Added tofu/chicken turning occasionally until browned on all sides. Turn off heat and transfer to plate. Wipe out pan.
+- Medium bowl, combine tofu or chicken, 1 TBSP cornstarch and pinch of salt. Make sure fully coated.
+- Heat drizzle of oil in large pan over medium high heat. Add tofu/chicken turning occasionally until browned on all sides. Turn off heat and transfer to plate. Wipe out pan.
 - Heat drizzle of oil in pan over medium high heat. Add broccoli with pinch of salt and cook until tender (6-8 minutes). Stir occasionally.
 - While broccoli cooks, whisk hoisin, sweet soy glaze, sriracha, and remaining cornstarch (1/2 TBSP) and 1/3 cups of water.
 - Reduce heat under pan with broccoli to low and stir in hoisin-soy mixture. Cook, stirring occasionally until sauce thickened (~2 minutes).

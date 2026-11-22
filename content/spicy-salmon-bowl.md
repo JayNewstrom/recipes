@@ -45,7 +45,7 @@ meal-types:
 {{% instructions %}}
 - Start brown rice on stove. If quinoa then don’t start in rice cooker until you put salmon in oven. Preheat oven to 350 degrees. In medium bowl whisk together marinade. Reserve 1/4 cup for later use.
 - Add marinade to baking dish and coat salmon in dish. Bake 25 minutes or fork tender.
-- While baking, make pickled cucumbers. In microwave safe dish, add vinegar, salt, and sugar and yeast slightly to allow sugar/salt to dissolve. Stir in sesame oil after and then add cucumbers. Stir/shake to combine and then cover and set aside.
+- While baking, make pickled cucumbers. In microwave safe dish, add vinegar, salt, and sugar and heat slightly to allow sugar/salt to dissolve. Stir in sesame oil after and then add cucumbers. Stir/shake to combine and then cover and set aside.
 - Make spicy mayo in small bowl.
 - Grate carrots and slice Avocado.
 - Assemble bowls with rice, salmon, cucumbers, carrots, Avocado, cilantro and sesame seeds. Drizzle mayo and marinade on top.

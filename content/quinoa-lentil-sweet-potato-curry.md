@@ -31,8 +31,8 @@ image: quinoa-lentil-sweet-potato-curry.jpg
 - Optional garnish: chopped cashews, fresh cilantro
 {{% /ingredients %}}
 
-{{% ingredients %}}
+{{% instructions %}}
 - Add all ingredients to a large pot and stir until combined.
 - Bring mixture to a boil, reduce to a simmer and simmer until liquid has absorbed and quinoa, lentils and sweet potato are cooked through, 50-60 minutes.
 - Garnish with chopped cashews and fresh cilantro, if desired.
-{{% /ingredients %}}
+{{% /instructions %}}

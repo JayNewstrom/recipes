@@ -20,7 +20,7 @@ meal-types:
 - 10 oz ground beef
 - 2 hamburger buns
 - 1 oz sweet Thai chili sauce
-- Handful crispy friend onions
+- Handful crispy fried onions
 {{% /ingredients %}}
 
 {{% instructions %}}
@@ -28,7 +28,7 @@ meal-types:
 - Cut potatoes into 1/2 inch thick wedges. Toss on baking sheet with oil, salt and pepper. Roast for 30-35 minutes.
 - While potatoes bake, trim and mince green onions, separating the whites from greens. Peel ginger and garlic and mince both separately.
 - In small bowl, combine mayo, green scallions, 3/4 tsp soy sauce (save rest for later), 1/4 tsp ginger (save rest for later) and 1/2 tsp sugar.
-- Large bowl, combine beef, white scallions, the remaining soy sauce, ginger, and garlic. For into 2 patties wider than bun.
+- Large bowl, combine beef, white scallions, the remaining soy sauce, ginger, and garlic. Form into 2 patties wider than bun.
 - When potatoes have 10 minutes left, heat a drizzle of oil in large pan on medium-high heat. Add patties and cook ~3-5 minutes each side. While burgers cook, toast buns.
 - Spread cut sides of buns with aioli (save some for dipping), then fill with patties, chili sauce, and crisp onions.
 - Serve burgers and fries with aioli on the side.

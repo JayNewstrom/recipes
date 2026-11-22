@@ -17,7 +17,7 @@ meal-types:
 - 2 large eggs
 - 2 tsp vanilla extract
 - 2 cups all purpose GF flour
-- 1/2 tsp xanthum gum (leave out if already in flour)
+- 1/2 tsp xanthan gum (leave out if already in flour)
 - 4 tsp GF baking powder
 - 1/4 tsp salt
 - 1 tsp cinnamon
@@ -27,7 +27,7 @@ meal-types:
 
 {{% instructions %}}
 - Large bowl, whisk eggs, sugar, vanilla extract and oil together.
-- Add flour (via spoon and level method) and xanthum gum (if using), baking powder, and salt to egg mixture until fully combined. OPTIONAL: Add 1 scoop protein powder.
+- Add flour (via spoon and level method) and xanthan gum (if using), baking powder, and salt to egg mixture until fully combined. OPTIONAL: Add 1 scoop protein powder.
 - Stir in milk and mix until smooth.
 - Pour batter in preheated/greased waffle machine.
 - Cook according to waffle machine instructions or until golden brown.

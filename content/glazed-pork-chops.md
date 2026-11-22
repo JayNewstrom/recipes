@@ -25,7 +25,7 @@ meal-types:
 - Preheat oven to 350 degrees.
 - In a small bowl, combine all dry seasonings.
 - Rub seasoning mixtures on all sides of chop. Moisture from meat will make seasonings adhere.
-- Heat olive oil in large oven safe skilled over medium low heat. Add pork chops and cook until nicely browned (usually no more than 5 min).
+- Heat olive oil in large oven safe skillet over medium low heat. Add pork chops and cook until nicely browned (usually no more than 5 min).
 - Transfer to oven for 5-10 min to finish cooking, until thermal internal temp 145.
 - Dredge chops through thick sauce before serving
 {{% /instructions %}}

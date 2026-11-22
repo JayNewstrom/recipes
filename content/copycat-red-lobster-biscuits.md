@@ -33,7 +33,7 @@ meal-types:
 - Into a medium-sized bowl, add the all-purpose flour, baking powder, sugar, nutritional yeast, garlic powder, old bay seasoning, and salt, and whisk together. Form a hole in the middle of this mix.
 - Now, stir the melted butter into the vegan buttermilk you made. Pour this into the hole of the dry mix.
 - Stir the dry mix and wet mix together until it is about 75% combined.
-- Add in the shredded vegan cheddar cheese and stir it into the batter just until it is evenly distributed, and you can also no longer see any visible bits of flour. However, DO NOT over mix the batter, or you will have chewy biscuits!
+- Add in the shredded vegan cheddar cheese and stir it into the batter just until it is evenly distributed, and you can also no longer see any visible bits of flour. However, DO NOT overmix the batter, or you will have chewy biscuits!
 - Scoop and measure out flat/even 1/4 cup portions of dough per each biscuit—Lay 8 biscuits on each sheet tray, spaced at least 1/2 an inch apart from each other.
 - Place the pans of biscuits on the middle rack and bake for 9 minutes. Rotate the pans around and bake for another 9 minutes. *While these are baking, make the garlic butter.
 - Brush the garlic butter onto the entire tops and sides of the biscuits. Place them back into the oven and bake for another 2 minutes.

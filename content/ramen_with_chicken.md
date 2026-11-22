@@ -35,12 +35,12 @@ meal-types:
 
 {{% instructions %}}
 - Preheat the oven to 375 and season the chicken with salt and pepper.
-- Melt the butter in an oven safe skillet over medium heat and add the chicken and cook until golden brown/easily releases from pan ~5-7 minutes. Cook the other side ~4-5 minuts until golden.
+- Melt the butter in an oven safe skillet over medium heat and add the chicken and cook until golden brown/easily releases from pan ~5-7 minutes. Cook the other side ~4-5 minutes until golden.
 - While chicken is cooking on stove, slice an onion and begin prepping other veggies as time allows.
-- Transfer the skillet to the ovent and roast for 15-20 minutes. Cut and place on plate with foil over the top to keep warm.
-- While chicken roasting, begin boiling water for the eggs and noodles with enough water to cover the eggs. Once boiling, gently lower the eggs (still cold from the fridge) into the the boiling water and let simmer for 7 minutes.
+- Transfer the skillet to the oven and roast for 15-20 minutes. Cut and place on plate with foil over the top to keep warm.
+- While chicken roasting, begin boiling water for the eggs and noodles with enough water to cover the eggs. Once boiling, gently lower the eggs (still cold from the fridge) into the boiling water and let simmer for 7 minutes.
 - Meanwhile, fill a large bowl with ice water and once the eggs finish, place them in that for 5 minutes. Keep the water boiling. Shell the egg and slice the egg once ready to serve.
-- While the chicken is roasting/eggs cooking/cooling, heat oil in a large pot of medium heat. Add onion for a few minutes until begins softening and then add garlic, ginger, and cook for 1-2 minutes. 
+- While the chicken is roasting/eggs cooking/cooling, heat oil in a large pot over medium heat. Add onion for a few minutes until begins softening and then add garlic, ginger, and cook for 1-2 minutes. 
 - Add the mirin and soy sauce and stir to combine for another minute.
 - Add chicken stock, cover, and bring to boil. Remove the lid and let simmer for 5 minutes. Add mushrooms and season to taste.
 - Once the eggs are in the ice bath, place the noodles in the boiling water and follow their instructions.

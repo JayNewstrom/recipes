@@ -21,5 +21,5 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Combine all ingrients
+- Combine all ingredients
 {{% /instructions %}}

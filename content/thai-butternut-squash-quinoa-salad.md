@@ -39,7 +39,7 @@ meal-types:
 
 {{% instructions %}}
 - Preheat oven to 400 degrees. 
-- Toss squatsh in 2 TBSP oil and salt. Spread evenly on baking sheet for 25-35 minutes, tossing halfway through.
+- Toss squash in 2 TBSP oil and salt. Spread evenly on baking sheet for 25-35 minutes, tossing halfway through.
 - Meanwhile, combine quinoa and broth and cook. Transfer to large bowl.
 - Prepare Dressing by combining all ingredients EXCEPT oil in small bowl. Gently stream in oil, whisking constantly until smooth.
 - Add Kale to bowl with quinoa, toss and combine. Heat from quinoa should soften kale. 

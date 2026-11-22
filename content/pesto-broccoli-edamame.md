@@ -34,7 +34,7 @@ meal-types:
 - Reserve 1 cup pasta water
 - When pasta al dente and vegetables tender, drain
 - Return pasta and vegetables to pot
-- Set aside 2 loosely packed cups of spinach aside
+- Set aside 2 loosely packed cups of spinach
 - Place remaining spinach (not 2 cups above), remaining 1 cup broccoli, cooked peas, basil, pine nuts, lemon juice, garlic, salt, and pepper in blender until chopped
 - Slowly add olive oil and process until smooth
 - Add 1/2 cup reserved pasta water to spaghetti mixture to loosen pasta

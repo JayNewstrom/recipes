@@ -17,7 +17,7 @@ image: sun-dried-tomato-pesto-gnocchi.jpg
 {{% ingredients %}}
 - 2 tbsp sun-dried tomato pesto
 - 1 package gnocchi (16 oz)
-- 1 tsp corn starch
+- 1 tsp cornstarch
 - 3/4 cup + 2 tsp plain, unsweetened non-dairy milk separated
 - 1 tbsp vegan butter
 - 2 tbsp olive oil
@@ -29,8 +29,8 @@ image: sun-dried-tomato-pesto-gnocchi.jpg
 {{% instructions %}}
 - Bring a large pot of water to a boil. Cook gnocchi according to package instructions. Drain and set aside.
 - While water is coming to a boil, place a pan on the stove over medium heat. Add butter, olive oil and garlic to the pan. Saute until butter is melted and garlic is fragrant. 
-- Combine corn starch and 2 tsp. of milk in a small bowl and whisk until smooth.
-- Add remaining milk, corn starch mixture and pesto to the pan. Stir until sauce begins to thicken, about 4 minutes.
+- Combine cornstarch and 2 tsp. of milk in a small bowl and whisk until smooth.
+- Add remaining milk, cornstarch mixture and pesto to the pan. Stir until sauce begins to thicken, about 4 minutes.
 - Add gnocchi to boiling water after sauce has begun to thicken.
 - Once sauce has thickened, turn off heat.
 - Add cooked gnocchi, salt and pepper to the pan and stir to combine. Taste and adjust seasoning as needed. 

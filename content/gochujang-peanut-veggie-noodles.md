@@ -22,7 +22,7 @@ meal-types:
 - 1 TBSP lime juice
 - 1 TBSP rice vinegar
 - 1/2 cup low sodium vegetable broth
-- 2 TBSP Avacado oil
+- 2 TBSP avocado oil
 - 1/2 large onion - minced
 - 2 TBSP minced garlic
 - 1 TBSP minced ginger

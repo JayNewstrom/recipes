@@ -23,7 +23,7 @@ meal-types:
 - 1 1/3 cup low sodium veg broth
 - 2/3 cup dry white wine (Sauvignon  blanc)
 - 1/2 cup whole dairy free milk
-- 1 TBSP corn starch
+- 1 TBSP cornstarch
 - 1/2 cup Parmesan cheese
 - 2 TBSP fresh dill
 - 2 TBSP fresh parsley
@@ -35,9 +35,9 @@ meal-types:
 - Heat oil in large pot (Dutch oven) over medium heat. Add mushrooms and cook, stir often until liquid has evaporated, about 12 min.
 - Add butter, stir until melted. Add leeks, garlic, and 1 tsp salt. Cook stirring often until leeks tender, 4-5 min.
 - Stir in pasta, water, stock, wine and 1 tsp of salt. Increase heat to bring to boil.
-- While bringing to boil heat up whole milk and cornstarch mixture in small sauce pan.
+- While bringing to boil heat up whole milk and cornstarch mixture in small saucepan.
 - Once boiling, reduce heat to medium and simmer, stirring occasionally until about 3 minutes short of al dente (check pasta packaging).
-- Stir in thicken milk and simmer until sauce evenly coats pasta (3 min).
+- Stir in thickened milk and simmer until sauce evenly coats pasta (3 min).
 - Remove from heat, stir in herbs, pepper, lemon zest and juice. Add 1/2 cup Parmesan cheese if dairy free.
 - Divide into bowls and serve with more cheese if desired.
 {{% /instructions %}}

@@ -33,8 +33,8 @@ meal-types:
 - Cook and cover on low 8 hours or on high for 5-6.
 - Shred beef.
 - Make the gravy. In small bowl, whisk together 1/4 c of water and the cornstarch.
-- Remove 2 cups liquid from crock pot and place in sauce pan.
-- Whisk cornstarch mixture in with beef juice in sauce pan.
+- Remove 2 cups liquid from crock pot and place in saucepan.
+- Whisk cornstarch mixture in with beef juice in saucepan.
 - Bring to boil, stirring frequently for 3-5 min until begins to thicken. It’ll thicken with cooling more.
 - Drizzle gravy over the roast and veggies.
 {{% /instructions %}}

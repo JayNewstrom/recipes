@@ -26,7 +26,7 @@ meal-types:
 
 {{% instructions %}}
 - Bring a large pot of salted water to a boil and add the spaghetti.
-- Cook to al dente according to manufacturers directions.
+- Cook to al dente according to manufacturer's directions.
 - Meanwhile, add the oil to a large saute pan over medium heat.
 - Add the garlic and red pepper flakes.
 - Saute for about 1 minute until the garlic is golden and fragrant.

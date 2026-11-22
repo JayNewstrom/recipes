@@ -35,7 +35,7 @@ meal-types:
 - Remove and discard kombu and then drain the chickpeas
 - Add cooked chickpeas to a food processor or blender along with garlic, tahini, lemon juice, sea salt, and olive oil
 - Blend until creamy and smooth, scraping down sides as necessary
-- Add garlic power and herbs (optional)
+- Add garlic powder and herbs (optional)
 - Blend and taste adjusting flavors as necessary
 - If the hummus is thick, add water (or additional oil)
 - Leftovers will keep stored in the fridge up to 1 week (don't freeze)

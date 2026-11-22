@@ -22,7 +22,7 @@ meal-types:
 - 1 tsp thyme
 - 1/4 tsp celery seed
 - 1 cup dairy free whole milk
-- 1 TBSP corn starch
+- 1 TBSP cornstarch
 - 1 bag frozen veggies (2.5 cups)
 - 1.5 lbs chicken thighs
 - 8-10 pillsbury biscuits
@@ -34,12 +34,12 @@ meal-types:
 - Preheat oven to 400 degrees
 - 5 min before chicken completed, place small pot and large pot on medium heat.
 - Place 1 cup of whole milk and cornstarch in small pot on low heat and frequently whisk.
-- Shred chicken though out step 6-9.
+- Shred chicken throughout steps 6-9.
 - Melt butter/oil in large pot. Once melted, cook onions until softened.
 - Whisk in flour, stir constantly to prevent flour from browning (1-2 min).
 - Whisk in chicken broth, salt, pepper, lemon pepper, and sage until no lumps remain.
-- Whisk in thickened milk and bring to light simmer until thickened. Test for additional seasonings.
-- Add mixed veggies and shredded chickens and stir until fully incorporated
+- Whisk in thickened milk and bring to light simmer until thickened. Taste for additional seasonings.
+- Add mixed veggies and shredded chicken and stir until fully incorporated
 - Transfer 9x13 inch baking dish
 - Evenly top with 8-10 biscuits cut into thirds. (You’ll have extra biscuits to bake separately.)
 - Bake in preheated oven for 20-25 min until biscuits golden brown and gravy bubbling.

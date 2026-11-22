@@ -16,7 +16,7 @@ meal-types:
 - 1 yellow onion
 - 1 green bell pepper
 - 1 poblano pepper
-- 1 jalopeno
+- 1 jalapeño
 - 3 minced garlic cloves
 - 2 - 4oz diced green chili cans
 - 1- 15 oz green enchilada sauce
@@ -31,7 +31,7 @@ meal-types:
 - 2 - 15 oz cannellini beans - drained/rinsed
 - 8 oz dairy free cream cheese
 - 2 TBSP lime juice
-- Optional: dairy free cheese, corn chips, lime wedges, Avacado/guac
+- Optional: dairy free cheese, corn chips, lime wedges, avocado/guac
 {{% /ingredients %}}
 
 {{% instructions %}}

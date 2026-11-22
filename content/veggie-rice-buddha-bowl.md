@@ -16,8 +16,8 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 head cauliflower, cut into bite size pieces
-- 1 head broccoli, cut into bite size pieces
+- 1 head cauliflower, cut into bite-size pieces
+- 1 head broccoli, cut into bite-size pieces
 - 3 medium carrots, cut into coins
 - 1 cup brown rice, I nearly always use quick-cook brown rice
 - 2 cups cooked chickpeas, or 1 can, rinsed and drained

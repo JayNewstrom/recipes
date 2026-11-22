@@ -30,7 +30,7 @@ meal-types:
 {{% instructions %}}
 - At least 4 hours before, cook rice, and put in refrigerator.
 - In a large non-stick skillet or wok, add vegetable oil, chicken, and cook over medium-high heat for about 5 to 7 minutes, flipping intermittently so all sides cook evenly. Cooking time will vary based on thickness of chicken breasts and sizes of pieces.
-- Remove chicken place chicken on a plate; set aside.
+- Remove chicken and place on a plate; set aside.
 - Add onion, saute until soft (about 4 minutes).
 - Add the garlic, saute until fragrant (about 2 minutes).
 - Add the peas, carrots, green onions, and cook for about 2 minutes, or until vegetables begin to soften, stir intermittently.

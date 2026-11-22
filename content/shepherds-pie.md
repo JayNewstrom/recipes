@@ -1,5 +1,5 @@
 ---
-title: "Shepherds Pie"
+title: "Shepherd's Pie"
 date: 2022-12-26T14:11:37-06:00
 draft: false
 serves: 6
@@ -22,7 +22,7 @@ meal-types:
 - 1 tsp dried thyme leaves
 - 1/2 tsp salt
 - 1/2 tsp ground black pepper
-- 1 Tbsp Worcestershire sauces
+- 1 Tbsp Worcestershire sauce
 - 2 garlic cloves, minced
 - 2 Tbsp flour
 - 2 Tbsp ketchup
@@ -40,7 +40,7 @@ meal-types:
 - Add oil to large skillet and place over medium-high heat for 2 minutes. Add onions and cook 5 minutes, stirring occasionally.
 - Add ground beef to skillet. Add parsley, rosemary, thyme. Salt and pepper. Stir well. Cook 6-8 minutes until browned.
 - Add Worcestershire sauce and garlic. Stir and combine. Cook 1 minute.
-- Add flour and ketchup. Stir until well incorporated and not clumps.
+- Add flour and ketchup. Stir until well incorporated and no clumps.
 - Add broth and frozen veg. Bring to a boil and then reduce to a simmer for 5 minutes stirring occasionally.
 - Preheat oven to 400 degrees.
 
@@ -48,7 +48,7 @@ meal-types:
 - Make mashed potatoes. Boiling in water 10-15 minutes.
 
 #### Assemble casserole
-- Pour meat mixture into 9x9 or 7x11 baking dish. Spread into even leaner. Spoon the mashed potatoes on top of meat. Spread into even layer.
-- If baking dish full, placed it on rimmed baking sheet so it doesn’t bubble over in oven.
+- Pour meat mixture into 9x9 or 7x11 baking dish. Spread into even layer. Spoon the mashed potatoes on top of meat. Spread into even layer.
+- If baking dish full, place it on rimmed baking sheet so it doesn’t bubble over in oven.
 - Bake 25-30 minutes. Cool for 15 minutes.
 {{% /instructions %}}

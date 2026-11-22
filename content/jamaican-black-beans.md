@@ -37,7 +37,7 @@ meal-types:
 {{% instructions %}}
 - Add onion and red bell pepper to large pan and sauté over medium heat ~10 minutes or until tender.
 - Add 1-2 tbsp to not allow veggies to stick.
-- Stir in garlic, curry powder, allspice, thyme, jalapeños, and black peppers. Cook 3-4 minutes and then add tomatoes and black beans. Cook over medium heat for 20 minutes.
+- Stir in garlic, curry powder, allspice, thyme, jalapeños, and black pepper. Cook 3-4 minutes and then add tomatoes and black beans. Cook over medium heat for 20 minutes.
 
 #### Pineapple chutney
 - Place onion in large skillet and sauté over medium heat 7-8 min.

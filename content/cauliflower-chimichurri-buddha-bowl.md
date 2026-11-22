@@ -58,9 +58,9 @@ meal-types:
 
 - Preheat oven to 425f
 - If making rice or quinoa, cook it according to directions first.
-- Roast the Cauliflower: Toss Cauliflower with olive oil, salt and spices in a large bowl, and place in a single layer, on parchement-lined sheet pans (you may need two. Cut the bell pepper in half and place on the same sheet pan open side down. Roast 12 minutes, turn cauliflower over, rotating racks  ( top rack will cook faster) and  cook another 12-15 minutes, until nice and golden, and fork-tender.
+- Roast the Cauliflower: Toss Cauliflower with olive oil, salt and spices in a large bowl, and place in a single layer, on parchment-lined sheet pans (you may need two). Cut the bell pepper in half and place on the same sheet pan open side down. Roast 12 minutes, turn cauliflower over, rotating racks  ( top rack will cook faster) and  cook another 12-15 minutes, until nice and golden, and fork-tender.
 - Make the Chimichurri Sauce
-- Season the blackbeans: Warm up the black beans in a small pot on the stove, adding water, spices, salt and oil.
+- Season the black beans: Warm up the black beans in a small pot on the stove, adding water, spices, salt and oil.
 - Assemble Bowls: Layer rice and beans, top with roasted cauliflower. Drizzle with a little chimichurri sauce and garnish with the slaw, avocado, pickled onions, sprouts and cilantro.
 
 #### Chimichurri Sauce

@@ -50,5 +50,5 @@ meal-types:
 - Roast the veggies for 25 minutes, giving the baking sheets a good shake about halfway through. Add the black beans to the sheet pan, then place the pan back in the oven for 5 more minutes to heat the black beans through. Remove from the oven and set aside.
 - Prep taco assembly: Meanwhile, as the veggies roast, prep the rest of your taco fixins:
 - Prep the chipotle lime cashew sauce: Add all listed ingredients in a high-speed blender. Blend to combine. Set aside.
-- Assemble the roasted veggie tacos: Smear some guacomole on each tortilla. Top with a generous scoop of roasted veggies. Drizzle some chipotle lime cashew sauce over top. Finish with some freshly chopped cilantro.
+- Assemble the roasted veggie tacos: Smear some guacamole on each tortilla. Top with a generous scoop of roasted veggies. Drizzle some chipotle lime cashew sauce over top. Finish with some freshly chopped cilantro.
 {{% /instructions %}}

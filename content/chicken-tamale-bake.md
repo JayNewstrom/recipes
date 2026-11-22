@@ -26,7 +26,7 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Instapot 1 lbs of chicken.
+- Instant Pot 1 lbs of chicken.
 - Preheat oven 400 degrees. Combine in a large bowl: milk, eggs, 1/2 TBSP taco seasoning, red pepper, corn, corn muffin mix, and green chilies.
 - Oil pie pan. Pour mixture into pie pan and bake 30 minutes.
 -  While corn mixture is baking, shred and toss the chicken in the remaining 1 TBSP taco seasoning.

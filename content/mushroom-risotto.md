@@ -15,7 +15,7 @@ meal-types:
 {{% ingredients %}}
 - 1 Tbsp Olive Oil
 - 1 onion, chopped
-- 5 cups Cremini/baby Bella/brow button Mushrooms, sliced
+- 5 cups Cremini/baby Bella/brown button Mushrooms, sliced
 - 2 Tbsp Garlic
 - 1.5 cups Arborio/Risotto Rice
 - 6 cups any type of broth (divided)

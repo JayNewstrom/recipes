@@ -28,7 +28,7 @@ meal-types:
 - Dice sweet potato into 1/2 inch pieces.
 - Halve, peel and slice onion into 1/2 wedges.
 - Cut bell pepper into strips.
-- Quarter lime and half orange.
+- Quarter lime and halve orange.
 - Toss sweet potato, onion, and bell pepper on baking sheet.
 - Drizzle oil and mix 1/2 TBSP of spice blend, salt, and pepper.
 - Roast on rack for 15 minutes, stir, and another 10 minutes.

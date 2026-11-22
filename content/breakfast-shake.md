@@ -16,8 +16,8 @@ meal-types:
 - 100g Ground flax seeds
 - 10g Iodized salt
 - 400g [peanut butter powder](https://www.microingredients.com/products/pblite-pure-peanut-powder-4lbs)
-- 50g [whey protien powder](https://www.optimumnutrition.com/en-us/products/gold-standard-100-whey-protein-powder?variant=52138905305355)
-- 100g [collagen protien powder](https://www.bulksupplements.com/products/hydrolyzed-bovine-collagen-powder)
+- 50g [whey protein powder](https://www.optimumnutrition.com/en-us/products/gold-standard-100-whey-protein-powder?variant=52138905305355)
+- 100g [collagen protein powder](https://www.bulksupplements.com/products/hydrolyzed-bovine-collagen-powder)
 - 100g [egg white protein powder](https://www.bulksupplements.com/products/egg-white-paleo-protein-powder)
 - 100g [hemp hearts](https://manitobaharvest.com/collections/hemp-hearts/products/natural-hemp-hearts)
 - 50g [cacao powder](https://a.co/d/07v8nJ5i)

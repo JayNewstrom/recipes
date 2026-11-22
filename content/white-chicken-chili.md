@@ -32,7 +32,7 @@ image: white-chicken-chili.jpg
 - 1/4 teaspoon cayenne pepper
 - 1 Tablespoon pepper
 - salt/pepper to taste
-- (Optional, for topping) sour cream, corn chips, Monterrey Jack cheese, chopped cilantro, and/or jalapeno slices
+- (Optional, for topping) sour cream, corn chips, Monterey Jack cheese, chopped cilantro, and/or jalapeno slices
 {{% /ingredients %}}
 
 {{% instructions %}}
@@ -43,5 +43,5 @@ image: white-chicken-chili.jpg
 - Add garlic and cook until fragrant (about 1 minute).
 - Add shredded chicken, chicken broth, beans, diced green chilis, lime juice, cumin, onion powder, chili powder, cayenne pepper, and pepper. 
 - Bring mixture to a boil using high heat, then reduce heat to a simmer.  
-- Simmer 15 minutes before serving, top with sour cream, jalapeno slices, monterrey jack cheese, chopped cilantro, and crushed corn chips.
+- Simmer 15 minutes before serving, top with sour cream, jalapeno slices, Monterey Jack cheese, chopped cilantro, and crushed corn chips.
 {{% /instructions %}}

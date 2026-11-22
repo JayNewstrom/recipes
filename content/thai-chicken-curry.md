@@ -30,7 +30,7 @@ meal-types:
 - Cook rice with pinch of salt and keep covered until ready to serve.
 - Wash/dry produce.
 - Dice bell pepper, mince cilantro, thinly slice jalapeno (removing seeds).
-- Heat large pan with drizzle of oiled on medium heat. Add bell pepper and big pinch of salt. Cook stirring occasionally ~5 min.
+- Heat large pan with drizzle of oil on medium heat. Add bell pepper and big pinch of salt. Cook stirring occasionally ~5 min.
 - Add chicken and another drizzle of oil and pinch of salt to pan with bell pepper. Cook stirring occasionally until chicken is slightly browned 3-4 min.
 - Stir in curry powder.
 - Shake coconut milk before opening. Stir in coconut milk, chili sauce, stock concentrate, lime juice from 1.5 limes into chicken mixture.

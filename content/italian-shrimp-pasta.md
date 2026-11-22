@@ -29,7 +29,7 @@ meal-types:
 {{% instructions %}}
 - Boil water in large pot. Cook pasta when ready to al dente.
 - Large skillet over medium heat, heat 2 TBSP tomato oil. Season shrimp with salt/pepper and cook until pink/opaque. Transfer shrimp to plate.
-- Over medium heat, add remaining 2 TBSP tomato oil and then cook garlic, tomato paste, red pepper flakes until tomato past deepens in color ~1 minute.
+- Over medium heat, add remaining 2 TBSP tomato oil and then cook garlic, tomato paste, red pepper flakes until tomato paste deepens in color ~1 minute.
 - Add sundried tomatoes, broth, milk/slurry, and italian seasoning and bring to a simmer, stirring frequently until sauce slightly reduces ~5-10 minutes.
 - Add spinach and cook until wilted ~ 2 minutes.
 - Add pasta, shrimp and parm (if desired) to sauce and cook until pasta coated and sauce is glossy. Season with salt/pepper.

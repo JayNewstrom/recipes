@@ -31,6 +31,6 @@ meal-types:
 - Add broth, pasta, tomatoes with juice and remaining taco seasoning.
 - Cover pan and cook on low heat for 15 min, stirring occasionally to keep pasta from sticking to the bottom of the pot.
 - Remove the cover, increase heat to medium and stir pasta until most liquid gone. (If liquid already gone, omit step).
-- Turn off heat and add shredded cheese, reserving some for to top. Stir until cheese melted.
+- Turn off heat and add shredded cheese, reserving some to top. Stir until cheese melted.
 - Divide into serving bowls, add/top crushed chips, cilantro, green onions, avocado/guacamole, olives, and/or sour cream as desired.
 {{% /instructions %}}

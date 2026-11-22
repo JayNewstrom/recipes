@@ -19,9 +19,9 @@ meal-types:
 - 1 TBSP neutral oil
 - 1 onion, thinly sliced
 - 2 cloves garlic, minced
-- 2 jalopenos, de-seed but keep membrane/seeds to steep in oil, diced
+- 2 jalapeños, de-seed but keep membrane/seeds to steep in oil, diced
 - 2 TBSP minced ginger
-- 1-2 TBSP lemon grass puree
+- 1-2 TBSP lemongrass puree
 - 1 heaping TBSP red thai curry
 - 4 cups chicken bone broth
 - 2 cans lite coconut milk
@@ -35,13 +35,13 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- De-seed jalopeno and place seeds/membranes in large dutch oven pot with neutral oil on medium heat. Stir occasionally.
-- Thinly slice onion and dice rest of jalopeno and add to pot along with minced garlic, ginger, lemon grass, and thai curry paste. Stir frequently and cook until onions soft (~5 minutes).
+- De-seed jalapeño and place seeds/membranes in large dutch oven pot with neutral oil on medium heat. Stir occasionally.
+- Thinly slice onion and dice rest of jalapeño and add to pot along with minced garlic, ginger, lemongrass, and thai curry paste. Stir frequently and cook until onions soft (~5 minutes).
 - Add chicken bone broth and bring to boil. Then reduce heat and simmer uncovered for 30 minutes.
 - While above simmers, cut mushrooms as needed, chop chicken breast, and mince cilantro.
 - After 30 minutes, strain out approx 1/2 of the onions and discard.
 - Add coconut milk, chicken breast pieces, and mushrooms. Simmer until chicken is cooked through.
 - Add cooked rice and break up any clumps.
 - Add fish sauce, coconut aminos, and lime juice. Taste and add more as needed.
-- Cook 2 minutes then laddle and serve with sliced green onion and cilantro.
+- Cook 2 minutes then ladle and serve with sliced green onion and cilantro.
 {{% /instructions %}}

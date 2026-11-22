@@ -19,7 +19,7 @@ meal-types:
 - 4 tablespoons all-purpose flour
 - 4 cups beef broth
 - 1 cup dairy free milk
-- 2 tablespoon corn starch
+- 2 tablespoon cornstarch
 - 4 tablespoons Dijon mustard
 - 2 tablespoon Worcestershire sauce
 - 4 beef bouillon cubes
@@ -32,6 +32,6 @@ meal-types:
 - In a large Dutch oven over medium-high heat, brown the beef, breaking it up into pieces as it cooks.
 - Add the onions to the Dutch oven and sauté, stirring frequently, until translucent and soft – about 5 minutes.
 - Sprinkle the flour over the beef and onion, stirring to evenly coat and allow the flour to absorb oil.
-- Add the beef broth, milk, corn starch, Dijon, Worcestershire, and beef bouillon to the Dutch oven. Stir until combined, and allow the sauce to simmer until thickened.
+- Add the beef broth, milk, cornstarch, Dijon, Worcestershire, and beef bouillon to the Dutch oven. Stir until combined, and allow the sauce to simmer until thickened.
 - Toss the noodles to coat evenly with the sauce. Adjust seasoning with salt & pepper and garnish with parsley before serving.
 {{% /instructions %}}

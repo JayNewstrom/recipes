@@ -15,14 +15,14 @@ meal-types:
 {{% ingredients %}}
 - 8 tortillas
 - 2 lbs of chicken, shredded
-- 1 can refried bean
+- 1 can refried beans
 - 1 red onion
 - 28 oz enchilada sauce (red or green)
 - Optional Toppings: cilantro, diced tomatoes, shredded cheese, sour cream
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Pressure cook chicken in instapot
+- Pressure cook chicken in Instant Pot
 - While chicken is cooking, cut onion and open other canned ingredients. Lightly grease 13x9 glassware
 - Preheat oven to 400 degrees
 - Shred chicken

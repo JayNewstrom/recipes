@@ -8,7 +8,7 @@ time_to_prepare: 20 minutes
 time_to_cook: 30 minutes
 tags:
 - vegan
-- gluten free
+- gluten-free
 meal-types:
 - lunch
 - dinner

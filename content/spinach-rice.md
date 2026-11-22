@@ -24,12 +24,12 @@ meal-types:
 - 2 tablespoons garam masala powder
 - 2 tablespoons cumin powder
 - 1 tsp  turmeric powder
-- 1 tablespoon red chill powder
+- 1 tablespoon red chili powder
 - 4 tablespoons lime juice
 - 2 1/2 cup of water
 - 2 tsp oil
 - salt to taste
-- toppings: nuts, crasins
+- toppings: nuts, craisins
 {{% /ingredients %}}
 
 {{% instructions %}}
@@ -38,6 +38,6 @@ meal-types:
 - Close the lid on the pot, and turn the valve from VENTING to SEALING position
 - Press CANCEL button on Instant Pot. Set the pot to MANUAL/PRESSURE COOK button (High Pressure) and set the timer to 6 minutes
 - When done. Natural Pressure Release for 5 minutes and then do a QUICK RELEASE
-- Remove lid away from you, add lime juice, mix well, top with nuts and crasins
+- Remove lid away from you, add lime juice, mix well, top with nuts and craisins
 - Spinach Rice is ready
 {{% /instructions %}}

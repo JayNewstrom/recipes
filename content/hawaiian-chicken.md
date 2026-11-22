@@ -14,7 +14,7 @@ meal-types:
 {{% ingredients %}}
 - 1/2 cup BBQ sauce
 - 1/8 cup coconut aminos
-- 1/8 cup Avacado oil
+- 1/8 cup avocado oil
 - 1/8 cup chopped cilantro
 - 1/8 cup sliced scallions
 - 1 TBSP lemon juice
@@ -31,9 +31,9 @@ meal-types:
 
 {{% instructions %}}
 - Mix BBQ, coconut aminos, 1 TBSP cilantro and scallions each, lemon juice, paprika, ginger, garlic and 1 tsp salt and pepper in a bowl.
-- Cut bell pepper, pineapple and onion and place in instant pot then top with chicken. Sprinkle 1-2tsp of salt and pepper on top.
+- Cut bell pepper, pineapple and onion and place in instant pot then top with chicken. Sprinkle 1-2 tsp of salt and pepper on top.
 - Pour sauce over chicken and cook chicken.
-- Unpressurized instant pot and shred chicken.
+- Depressurize instant pot and shred chicken.
 - Return chicken to instant pot with sauce and stir together.
 - Serve and garnish with remaining cilantro and scallions.
 {{% /instructions %}}

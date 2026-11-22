@@ -27,9 +27,9 @@ meal-types:
 - Preheat oven to 380 degrees
 - Generously season meat with salt and pepper
 - (Optional) If able, in a large pan heat with oil and sear meat on all sides until dark golden brown
-- Put meat in baking sheet and generally coat with herb mix and garlic
+- Put meat in baking sheet and generously coat with herb mix and garlic
 - Place pats of butter on top of pork
-- Wrap in foil and bak until meat 145 deg internally at thickest part (~30-40 min)
+- Wrap in foil and bake until meat 145 deg internally at thickest part (~30-40 min)
 - Remove and rest in tented foil for 5 minutes
 - Slice against grain and serve
 {{% /instructions %}}

@@ -12,7 +12,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 lbs white flakey fish (tilapia, Mahi Mahi, etc) filet (rinsed and patted dry)
+- 1 lbs white flaky fish (tilapia, Mahi Mahi, etc) filet (rinsed and patted dry)
 - 1 tsp olive oil
 - 1 small onion, chopped
 - 4 minced garlic cloves
@@ -44,5 +44,5 @@ meal-types:
 - Add jalapeños, tomatoes, cilantro (keep some for garnish), and lime juice. Sauté on medium high for 5 min breaking up the fish and mix well. Season salt and pepper.
 - Make sauce by mixing all ingredients together and place in fridge until ready. (Can store in fridge for 4 days)
 - Heat tortillas.
-- Serve a little of 1/4 cups of fish mixture with each tortilla. Top with cabbage, avocado, cilantro and lime squeeze.
+- Serve a little over 1/4 cup of fish mixture with each tortilla. Top with cabbage, avocado, cilantro and lime squeeze.
 {{% /instructions %}}

@@ -36,7 +36,7 @@ meal-types:
 - Rinse and cook quinoa. Remove from heat to cool.
 - Meanwhile, make peanut sauce by whisking peanut butter and coconut aminos until smooth (may help to microwave up to 30 sec). Add remaining ingredients and whisk until smooth. Add water to thin mixture as needed.
 - Wash and prepare vegetables.
-- In large bowl, combine quinoa, cabbage, carrots, peas, cilantro and green. onion.
+- In large bowl, combine quinoa, cabbage, carrots, peas, cilantro and green onion.
 - Add peanut sauce, toss and combine. Add pinch of salt as needed to taste. Serve and garnish with chopped peanuts.
 - Keeps in fridge for 3-4 days, but store peanuts separately.
 {{% /instructions %}}

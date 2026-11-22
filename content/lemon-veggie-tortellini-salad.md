@@ -33,7 +33,7 @@ meal-types:
 - Add veggie blend and pine nuts.
 - Cook for about 5 minutes or until veggies are crisp tender, stirring occasionally. Remove from heat.
 - While veggies cook, prepare dressing; whisk lemon juice, mustard, honey, lemon pepper, basil, salt, and garlic powder in a bowl.
-  Slowly add reminding 4 Tbsp olive oil, whisking continuously; set aside.
+  Slowly add remaining 4 Tbsp olive oil, whisking continuously; set aside.
 - Add tortellini to boiling water. Cook according to package. Drain and rinse under cold water.
 - Toss tortellini, dressing, and veggies together. Add tomatoes.
 - Garnish with basil, parmesan, and pine nuts.

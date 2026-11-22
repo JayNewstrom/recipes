@@ -13,7 +13,7 @@ meal-types:
 
 {{% ingredients %}}
 - 1- 15 oz can pumpkin puree
-- 1/3 heaping cup sweetner of choice
+- 1/3 heaping cup sweetener of choice
 - 1 heaping tsp cinnamon
 - 1 heaping tsp pumpkin pie spice
 - 1/2 cup vanilla protein powder (about 2 scoops)
@@ -25,7 +25,7 @@ meal-types:
 
 {{% instructions %}}
 - Preheat oven to 350 degrees and oil 9 inch pie dish.
-- Whisk pumpkin, sweetner, spices, vanilla, protein powder in large bowl.
+- Whisk pumpkin, sweetener, spices, vanilla, protein powder in large bowl.
 - Add eggs and whisk.
 - Stir in milk until fully combined and mixture is silky.
 - Pour batter into prepared pie dish and smooth top.

@@ -27,7 +27,7 @@ meal-types:
 - 2 teaspoons coriander
 - 2 teaspoons ginger
 - 1/2 teaspoon cayenne
-- 4 teaspoons Garam Masal
+- 4 teaspoons Garam Masala
 - 2 teaspoons salt
 - 3 teaspoons pepper
 {{% /ingredients %}}

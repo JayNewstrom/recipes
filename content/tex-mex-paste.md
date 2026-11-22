@@ -18,7 +18,7 @@ meal-types:
 - Fire roasted tomato
 - Garlic
 - Veg broth
-- All spice
+- Allspice
 - ground coriander
 - cumin
 - paprika

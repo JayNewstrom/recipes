@@ -35,7 +35,7 @@ meal-types:
 - Butterfly chicken and season both sides with salt/pepper
 - One at a time, coat chicken in flour, shake off excess. Dip into eggs, drip off excess. Finally dip into panko mixture and gently press to adhere and ensure both sides of chicken are coated
 - Cook noodles
-- Work in batches if necessary, arrange chicken in single layer in air fryer and cook at 400 degrees turning one or until just cooked through ~5 min per side
+- Work in batches if necessary, arrange chicken in single layer in air fryer and cook at 400 degrees turning once or until just cooked through ~5 min per side
 - Once noodles cooked, drain and add marinara sauce to noodles
 - Remove chicken and top with mozzarella and bake until melted
 - Garnish and serve

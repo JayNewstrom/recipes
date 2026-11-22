@@ -19,7 +19,7 @@ meal-types:
 - 1-2 carrots, julienned
 - 1 cup roughly chopped cilantro
 - 1 bell pepper sliced
-- 1 avacado, sliced
+- 1 avocado, sliced
 - Sesame seeds to top
 - 2 TBSP peanut butter
 - 1 TBSP rice vinegar
@@ -34,6 +34,6 @@ meal-types:
 
 {{% instructions %}}
 - In a medium bowl, whisk the dressing (including the garlic), add water for thinner consistency.
-- Chop all the veg and and toss in a large bowl except the avacado.
-- Serve the veg with chicken, avacado, and dressing on top. Garnich with sesame seeds.
+- Chop all the veg and toss in a large bowl except the avocado.
+- Serve the veg with chicken, avocado, and dressing on top. Garnish with sesame seeds.
 {{% /instructions %}}

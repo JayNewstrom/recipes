@@ -23,7 +23,7 @@ meal-types:
 - 1 large (1 lbs) sweet potato, peeled/diced
 - 1 yellow onion, diced
 - 3 bay leaves
-- 2 cups lactose free vitamin D milk
+- 2 cups lactose-free vitamin D milk
 - 2 large handfuls of kale, roughly chopped with stems removed
 - Salt/Pepper to taste
 - 4 TBSP old bay seasoning
@@ -36,7 +36,7 @@ meal-types:
 - Combine chicken bone broth, wild rice, mushrooms, garlic, carrots, celery, sweet potato, onion, and old bay seasoning in instant pot. Add bay leaves.
 - Pressure-cook: high pressure 25 minutes. Naturally release 10 minutes then vent.
 - While cooking, shred chicken and roughly chop kale and place in large bowl.
-- Warm up milk in sauce pan, add cornstarch slurry if desired for thicker milk if not using coconut milk.
+- Warm up milk in saucepan, add cornstarch slurry if desired for thicker milk if not using coconut milk.
 - Once instant pot is completed cooking/venting, remove bay leaves.
 - Add milk and kale to soup, gently stir until combined. Add salt, pepper and bay seasoning to taste. Serve.
 {{% /instructions %}}

@@ -30,12 +30,12 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Preheat oven to 425⁰f 
+- Preheat oven to 425°F
 - Prep your veggies and place them in a baking dish or sheet pan. 
 - Drizzle with olive oil and sprinkle over the Italian seasoning, mix it all together. 
 - Place in preheated oven for 40 minutes, stirring about halfway through. 
 - Remove from the oven and let it cool for a few minutes. 
-- Carefully poor cooked vegetables into a blender and blend until smooth. 
+- Carefully pour cooked vegetables into a blender and blend until smooth. 
 - Add Coconut milk and nutritional yeast, blend again until well combined. Taste for salt and pepper. 
 - If using Sausage brown it in a large pot then add the sauce and pasta.  Stir to combine.  
 - Serve and eat! 

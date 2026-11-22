@@ -14,7 +14,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 1 pound potatoes, chopped into byte sized chunks
+- 1 pound potatoes, chopped into bite-sized chunks
 - 1 head broccoli, cut into florets (about 4 cups)
 - 1 pound smoked chorizo (cut into rounds, or cooked ground chunks)
 - 2 tablespoons olive oil
@@ -28,6 +28,6 @@ meal-types:
 - In a mixing bowl, combine all the ingredients except for chorizo and mix.
 - Pour onto a sheet pan in a single layer. 
 - Bake 20 minutes stirring halfway through.
-- Add chorizo to the sheet pan, mix again, and place back in over for another 10-20 minutes.
+- Add chorizo to the sheet pan, mix again, and place back in oven for another 10-20 minutes.
 - Season to taste with salt and pepper. 
 {{% /instructions %}}

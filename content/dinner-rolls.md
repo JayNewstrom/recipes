@@ -25,9 +25,9 @@ meal-types:
 - Combine 3/4 cup flour, yeast, sugar and salt in large mixing bowl.
 - In separate small mixing bowl, microwave water, almond milk, and butter until 110-120 degrees. If too hot, it can kill the yeast.
 - Add wet to dry ingredients. Whisk or beat 2 minutes, scraping side as needed.
-- Add 1/4 cup more flour and beat another 2 minutes. Continue adding 1/4 cups of flour at a time 4 more times until you achieve a soft dough. Ok to add more if too sticky. Transfer lightly dough to a lightly floured surface and knee until smooth and elastic. Then let rise 10 minutes.
+- Add 1/4 cup more flour and beat another 2 minutes. Continue adding 1/4 cups of flour at a time 4 more times until you achieve a soft dough. Ok to add more if too sticky. Transfer dough to a lightly floured surface and knead until smooth and elastic. Then let rise 10 minutes.
 - Grease 8 inch round pan.
 - Divide the dough into 12 pieces, shape into balls, and place in greased pan. Cover and let rise in warm place until doubled 40-45 minutes.
-- Preheat oven to 375 degrees and brush tops with additional butter. Bake 18-20 minute or until fluffy and golden brown.
+- Preheat oven to 375 degrees and brush tops with additional butter. Bake 18-20 minutes or until fluffy and golden brown.
 - Best results, serve immediately. Store loosely covered with kitchen towel up to 3 days on counter.
 {{% /instructions %}}

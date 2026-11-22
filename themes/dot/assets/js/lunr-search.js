@@ -55,7 +55,7 @@
             })
             .fail(function (jqxhr, textStatus, error) {
                 var err = textStatus + ", " + error;
-                console.error("Error getting Hugo index flie:", err);
+                console.error("Error getting Hugo index file:", err);
             });
     }
 

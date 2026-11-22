@@ -33,5 +33,5 @@ meal-types:
 - Add the rest of the sauce ingredients; garlic, honey, and mustards. Followed by potatoes and carrots.
 - Season with more salt and pepper, cover with the lid and make sure that the valve is in sealing position.
 - Press on MANUAL or PRESSURE COOK on high, and cook for 8 minutes.
-- When the cooking is finished, quickly release the steam and carefully open the lid. Garnish with chopped parsley, baste with honey extra honey mustard and serve.
+- When the cooking is finished, quickly release the steam and carefully open the lid. Garnish with chopped parsley, baste with extra honey mustard and serve.
 {{% /instructions %}}

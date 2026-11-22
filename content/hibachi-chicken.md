@@ -27,7 +27,7 @@ meal-types:
 - 16 baby Bella mushrooms stems removed and cut into 4ths
 - 2 med-large zucchini - thin short strips
 - 8 carrots cut into thin short strips
-- 2 TBSP Avacado oil
+- 2 TBSP avocado oil
 - 1 TBSP butter or ghee
 - Salt and pepper to taste
 - 1 TBSP sesame seeds

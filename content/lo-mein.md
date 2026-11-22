@@ -15,7 +15,7 @@ meal-types:
 ---
 
 {{% ingredients %}}
-- 8 ounces banzaa chickpea spaghetti noodles
+- 8 ounces Banza chickpea spaghetti noodles
 - 1 teaspoon Salt adjust to taste
 - 1 teaspoon Black Pepper adjust to taste
 - Sesame seeds for garnish, if desired

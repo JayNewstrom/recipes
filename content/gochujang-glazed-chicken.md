@@ -1,5 +1,5 @@
 ---
-title: "Gochujan Glazed Chicken"
+title: "Gochujang Glazed Chicken"
 date: 2024-10-27T07:27:52-06:00
 draft: false
 serves: 4

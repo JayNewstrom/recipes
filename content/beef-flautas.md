@@ -27,7 +27,7 @@ meal-types:
 - Thinly slice onion and then mince only 1 TBSP to top flautas later.
 - Heat drizzle of oil in large pan on medium high. Add onion and cook ~3 min.
 - Add beef and southwest blend, cook until meat browned and onion soft.
-- Stir in text mex paste and 1/3 cup water. Simmer until mixture thickened (2-4 min). Turn off heat.
+- Stir in Tex-Mex paste and 1/3 cup water. Simmer until mixture thickened (2-4 min). Turn off heat.
 - Meanwhile, use brush to spread 1 TBSP of oil onto tortillas.
 - Place 1/4 cup beef filling on one side of each tortilla. Sprinkle on cheese too if desired. Roll up tortillas, starting with filled side. Place seam side down on prepared baking sheet and snugly together to prevent unrolling.
 - Bake 8-12 mins until golden brown and crispy, may need 1-2 min on broil.
