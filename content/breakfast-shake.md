@@ -29,6 +29,6 @@ meal-types:
 {{% /ingredients %}}
 
 {{% instructions %}}
-- Mix all incredients
+- Mix all ingredients
 - 1 serving is roughly 100g of powder + 20oz water
 {{% /instructions %}}
